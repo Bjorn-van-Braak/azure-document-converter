@@ -67,7 +67,7 @@ def main() -> None:
 
     client = ContentUnderstandingClient(endpoint=endpoint_base, credential=credential)
 
-    analyzer = client.get_analyzer(analyzer_id="my_custom_analyzer_formula_disabled_ocr_disabled")
+    analyzer = client.get_analyzer(analyzer_id="my_custom_analyzer_markdown")
 
     print_analyzer(analyzer)
 

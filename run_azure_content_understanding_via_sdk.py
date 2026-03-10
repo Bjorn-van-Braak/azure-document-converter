@@ -73,7 +73,7 @@ def main() -> None:
     endpoint_base = "https://foundry-bjorn.services.ai.azure.com"
     key = os.environ["CONTENT_UNDERSTANDING_API_KEY"]
 
-    analyzer_id = "my_custom_analyzer_formula_disabled_ocr_disabled"
+    analyzer_id = "my_custom_analyzer_markdown"
     
     credential = AzureKeyCredential(key) if key else DefaultAzureCredential()
 

@@ -87,7 +87,7 @@ def main() -> None:
 
     # [START create_analyzer]
     # Generate a unique analyzer ID
-    analyzer_id = f"my_custom_analyzer_formula_disabled_ocr_disabled"
+    analyzer_id = f"my_custom_analyzer_markdown"
 
     print(f"Creating custom analyzer '{analyzer_id}'...")
 
@@ -96,7 +96,7 @@ def main() -> None:
     config = ContentAnalyzerConfig(
         return_details=True,
         enable_ocr=False,
-        enable_formula=False,
+        enable_formula=True, #changed to true becauase document, currently it going well
         enable_layout=True,
         # estimate_field_source_and_confidence=True,
         table_format="markdown", # default is "html", you may use "markdown"
