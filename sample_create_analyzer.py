@@ -87,19 +87,19 @@ def main() -> None:
 
     # [START create_analyzer]
     # Generate a unique analyzer ID
-    analyzer_id = f"my_custom_analyzer_{int(time.time())}"
+    analyzer_id = f"my_custom_analyzer_formula_disabled_ocr_disabled"
 
     print(f"Creating custom analyzer '{analyzer_id}'...")
 
     # Create analyzer configuration
     # See: https://learn.microsoft.com/en-us/azure/ai-services/content-understanding/concepts/analyzer-reference
     config = ContentAnalyzerConfig(
+        return_details=True,
+        enable_ocr=False,
         enable_formula=False,
         enable_layout=True,
-        enable_ocr=False,
         # estimate_field_source_and_confidence=True,
-        return_details=True,
-        table_format="html", # default is "html", you may use "markdown"
+        table_format="markdown", # default is "html", you may use "markdown"
         enable_figure_description=True
     )
 
