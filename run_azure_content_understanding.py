@@ -16,11 +16,12 @@ load_dotenv()
 # Load credentials from environment
 api_key = os.environ["CONTENT_UNDERSTANDING_API_KEY"]
 endpoint_base = "https://foundry-bjorn.services.ai.azure.com/contentunderstanding"
-analyzer_id = "prebuilt-documentSearch"
+# analyzer_id = "prebuilt-documentSearch"
+analyzer_id = "my_custom_analyzer_1773144144"
 api_version = "2025-11-01"
 
-endpoint = os.environ["DOCUMENT_INTELLIGENCE_ENDPOINT"]
-key = os.environ["DOCUMENT_INTELLIGENCE_API_KEY"]
+# endpoint = os.environ["DOCUMENT_INTELLIGENCE_ENDPOINT"]
+# key = os.environ["DOCUMENT_INTELLIGENCE_API_KEY"]
 
 # sample document
 storage_account = "gasuniebjorn"
@@ -55,11 +56,6 @@ response = requests.post(
             "inputs": [
                 {"url": document_url}
             ],
-            "config": {
-                # "enableLayout": True,
-                # "returnDetails": True,
-                "enableFigureDescription": True
-            }
         }
 )
 
@@ -89,7 +85,7 @@ while True:
         print("Analysis complete!")
         # Here is your final result object
         # print(result_data)
-        with open(f"output-{analyzer_id}-with-figure.json", "w", encoding="utf-8") as output_file:
+        with open(os.path.join("data", "output", "content-understanding", f"output-{analyzer_id}-with-figure.json"), "w", encoding="utf-8") as output_file:
             output_file.write(json.dumps(result_data, indent=4))
         break
     elif status == "Failed":

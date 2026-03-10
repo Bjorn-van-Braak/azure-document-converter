@@ -1,4 +1,4 @@
-# https://github.com/Azure/azure-sdk-for-python/blob/6a690955c5dfefa8869c80a94bd83e2f947449f4/sdk/contentunderstanding/azure-ai-contentunderstanding/samples/sample_analyze_configs.py#L21
+# Adapted from: https://github.com/Azure/azure-sdk-for-python/blob/6a690955c5dfefa8869c80a94bd83e2f947449f4/sdk/contentunderstanding/azure-ai-contentunderstanding/samples/sample_analyze_configs.py#L21
 
 # pylint: disable=line-too-long,useless-suppression
 # coding=utf-8

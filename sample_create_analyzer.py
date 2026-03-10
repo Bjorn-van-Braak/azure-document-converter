@@ -1,4 +1,4 @@
-# https://github.com/Azure/azure-sdk-for-python/blob/6a690955c5dfefa8869c80a94bd83e2f947449f4/sdk/contentunderstanding/azure-ai-contentunderstanding/samples/sample_create_analyzer.py
+# Adapted from: https://github.com/Azure/azure-sdk-for-python/blob/6a690955c5dfefa8869c80a94bd83e2f947449f4/sdk/contentunderstanding/azure-ai-contentunderstanding/samples/sample_create_analyzer.py
 
 # pylint: disable=line-too-long,useless-suppression
 # coding=utf-8
@@ -63,10 +63,10 @@ from azure.ai.contentunderstanding import ContentUnderstandingClient
 from azure.ai.contentunderstanding.models import (
     ContentAnalyzer,
     ContentAnalyzerConfig,
-    ContentFieldSchema,
-    ContentFieldDefinition,
-    ContentFieldType,
-    GenerationMethod,
+    # ContentFieldSchema,
+    # ContentFieldDefinition,
+    # ContentFieldType,
+    # GenerationMethod,
 )
 from azure.core.credentials import AzureKeyCredential
 from azure.identity import DefaultAzureCredential
@@ -74,11 +74,16 @@ from azure.identity import DefaultAzureCredential
 load_dotenv()
 
 def main() -> None:
-    endpoint = os.environ["CONTENTUNDERSTANDING_ENDPOINT"]
-    key = os.getenv("CONTENTUNDERSTANDING_KEY")
-    credential = AzureKeyCredential(key) if key else DefaultAzureCredential()
+    # endpoint = os.environ["DOCUMENT_INTELLIGENCE_ENDPOINT"]
+    endpoint_base = "https://foundry-bjorn.services.ai.azure.com"
+    # key = os.environ["DOCUMENT_INTELLIGENCE_API_KEY"]
+    api_key = os.environ["CONTENT_UNDERSTANDING_API_KEY"]
 
-    client = ContentUnderstandingClient(endpoint=endpoint, credential=credential)
+    # endpoint = os.environ["CONTENTUNDERSTANDING_ENDPOINT"]
+    # key = os.getenv("CONTENTUNDERSTANDING_KEY")
+    credential = AzureKeyCredential(api_key) if api_key else DefaultAzureCredential()
+
+    client = ContentUnderstandingClient(endpoint=endpoint_base, credential=credential)
 
     # [START create_analyzer]
     # Generate a unique analyzer ID
@@ -86,48 +91,15 @@ def main() -> None:
 
     print(f"Creating custom analyzer '{analyzer_id}'...")
 
-    # Define field schema with custom fields
-    # This example demonstrates three extraction methods:
-    # - extract: Literal text extraction (requires estimateSourceAndConfidence)
-    # - generate: AI-generated values based on content interpretation
-    # - classify: Classification against predefined categories
-    field_schema = ContentFieldSchema(
-        name="company_schema",
-        description="Schema for extracting company information",
-        fields={
-            "company_name": ContentFieldDefinition(
-                type=ContentFieldType.STRING,
-                method=GenerationMethod.EXTRACT,
-                description="Name of the company",
-                estimate_source_and_confidence=True,
-            ),
-            "total_amount": ContentFieldDefinition(
-                type=ContentFieldType.NUMBER,
-                method=GenerationMethod.EXTRACT,
-                description="Total amount on the document",
-                estimate_source_and_confidence=True,
-            ),
-            "document_summary": ContentFieldDefinition(
-                type=ContentFieldType.STRING,
-                method=GenerationMethod.GENERATE,
-                description="A brief summary of the document content",
-            ),
-            "document_type": ContentFieldDefinition(
-                type=ContentFieldType.STRING,
-                method=GenerationMethod.CLASSIFY,
-                description="Type of document",
-                enum=["invoice", "receipt", "contract", "report", "other"],
-            ),
-        },
-    )
-
     # Create analyzer configuration
+    # See: https://learn.microsoft.com/en-us/azure/ai-services/content-understanding/concepts/analyzer-reference
     config = ContentAnalyzerConfig(
         enable_formula=False,
         enable_layout=True,
         enable_ocr=False,
-        estimate_field_source_and_confidence=True,
+        # estimate_field_source_and_confidence=True,
         return_details=True,
+        table_format="html", # default is "html", you may use "markdown"
         enable_figure_description=True
     )
 
@@ -136,7 +108,7 @@ def main() -> None:
         base_analyzer_id="prebuilt-document",
         description="Custom analyzer for extracting company information",
         config=config,
-        field_schema=field_schema,
+        # field_schema=field_schema,
         models={
             "completion": "gpt-4.1",
             "embedding": "text-embedding-3-large",
@@ -154,21 +126,13 @@ def main() -> None:
     result = client.get_analyzer(analyzer_id=analyzer_id)
 
     print(f"Analyzer '{analyzer_id}' created successfully!")
-    if result.description:
-        print(f"  Description: {result.description}")
+    
 
-    if result.field_schema and result.field_schema.fields:
-        print(f"  Fields ({len(result.field_schema.fields)}):")
-        for field_name, field_def in result.field_schema.fields.items():
-            method = field_def.method if field_def.method else "auto"
-            field_type = field_def.type if field_def.type else "unknown"
-            print(f"    - {field_name}: {field_type} ({method})")
-    # [END create_analyzer]
 
     # Clean up - delete the analyzer
-    print(f"\nCleaning up: deleting analyzer '{analyzer_id}'...")
-    client.delete_analyzer(analyzer_id=analyzer_id)
-    print(f"Analyzer '{analyzer_id}' deleted successfully.")
+    # print(f"\nCleaning up: deleting analyzer '{analyzer_id}'...")
+    # client.delete_analyzer(analyzer_id=analyzer_id)
+    # print(f"Analyzer '{analyzer_id}' deleted successfully.")
 
 
 if __name__ == "__main__":

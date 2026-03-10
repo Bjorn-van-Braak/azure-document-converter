@@ -1,0 +1,3026 @@
+{
+    "path": "input1",
+    "markdown": "==This is title==\n\n1\\. Text\n\n[Latin](https://en.wikipedia.org/wiki/Latin) refers to an ancient Italic language\noriginating in the region of Latium in\nancient Rome.\n\n2\\. Page Objects\n\n2.1 Table\n\nHere's a sample table below, designed to\nbe simple for easy understand and quick\nreference.\n\nName\n\nCorp\n\nRemark\n\nFoo\n\nBar\n\nMicrosoft\n\nDummy\n\nTable 1: This is a dummy table\n\n2.2. Figure\n\nHere is a figure with some text\n\nValues\n\n500\n\n450\n\n400\n\n400\n\n350\n\n300\n\n300\n\n250\n\n200\n\n200\n\n100\n\n0\n\nJan\n\nFeb\n\nMar\n\nApr\n\nMay\n\nJun\n\nMonths\n\n3\\. Others\n\nAI Document Intelligence is an AI service\nthat applies advanced machine learning\n\nto extract ==text, key-value pairs, tables,==\nand structures from documents\nautomatically and accurately. Turn\ndocuments into usable data and shift\nyour focus to acting on information rather\nthan compiling it. Start with prebuilt\nmodels or create custom models tailored\nto your documents both on premises and\nin the cloud with the AI Document\nIntelligence ==studio== or SDK.\n\nThe custom extraction capabilities in AI\nDocument Intelligence help you\novercome this challenge by training on\nyour own data based on just five\ndocuments. Not only is the first output\nmore reliable and tailored to your needs,\nbut it also allows you to provide human\ninput to create a highly accurate model\ncustomized to your forms.\n\n$$\\mathrm { M S E } = \\frac { 1 } { n } \\sum _ { i = 1 } ^ { n } \\left( y _ { i } - \\widehat { y } _ { i } \\right) ^ { 2 }$$\n\n[](https://azure.microsoft.com/en-us/products/ai-services/ai-document-intelligence)\n",
+    "kind": "document",
+    "startPageNumber": 1,
+    "endPageNumber": 1,
+    "unit": "inch",
+    "pages": [
+        {
+            "pageNumber": 1,
+            "angle": 0,
+            "width": 8.5,
+            "height": 11,
+            "spans": [
+                {
+                    "offset": 0,
+                    "length": 1530
+                }
+            ],
+            "words": [
+                {
+                    "content": "This",
+                    "span": {
+                        "offset": 2,
+                        "length": 4
+                    },
+                    "confidence": 0.999,
+                    "source": "D(1,3.4656,1.0882,4.0658,1.0852,4.0658,1.3895,3.4656,1.3875)"
+                },
+                {
+                    "content": "is",
+                    "span": {
+                        "offset": 7,
+                        "length": 2
+                    },
+                    "confidence": 0.999,
+                    "source": "D(1,4.1486,1.085,4.3814,1.0846,4.3814,1.3906,4.1486,1.3898)"
+                },
+                {
+                    "content": "title",
+                    "span": {
+                        "offset": 10,
+                        "length": 5
+                    },
+                    "confidence": 0.999,
+                    "source": "D(1,4.4539,1.0844,5.0386,1.0851,5.0386,1.3931,4.4539,1.3909)"
+                },
+                {
+                    "content": "1",
+                    "span": {
+                        "offset": 19,
+                        "length": 1
+                    },
+                    "confidence": 0.932,
+                    "source": "D(1,1.0065,2.6088,1.0858,2.6091,1.0858,2.8038,1.0065,2.8041)"
+                },
+                {
+                    "content": ".",
+                    "span": {
+                        "offset": 20,
+                        "length": 2
+                    },
+                    "confidence": 0.935,
+                    "source": "D(1,1.109,2.6092,1.1487,2.6093,1.1487,2.8035,1.109,2.8037)"
+                },
+                {
+                    "content": "Text",
+                    "span": {
+                        "offset": 23,
+                        "length": 4
+                    },
+                    "confidence": 0.94,
+                    "source": "D(1,1.1983,2.6095,1.5886,2.6114,1.5886,2.8067,1.1983,2.8033)"
+                },
+                {
+                    "content": "Latin",
+                    "span": {
+                        "offset": 30,
+                        "length": 5
+                    },
+                    "confidence": 0.996,
+                    "source": "D(1,0.9857,2.9533,1.3414,2.9549,1.3414,3.1326,0.9857,3.1306)"
+                },
+                {
+                    "content": "refers",
+                    "span": {
+                        "offset": 74,
+                        "length": 6
+                    },
+                    "confidence": 0.995,
+                    "source": "D(1,1.4132,2.9552,1.8167,2.957,1.8167,3.1353,1.4132,3.133)"
+                },
+                {
+                    "content": "to",
+                    "span": {
+                        "offset": 81,
+                        "length": 2
+                    },
+                    "confidence": 0.994,
+                    "source": "D(1,1.8765,2.9572,2.017,2.9578,2.017,3.1364,1.8765,3.1356)"
+                },
+                {
+                    "content": "an",
+                    "span": {
+                        "offset": 84,
+                        "length": 2
+                    },
+                    "confidence": 0.99,
+                    "source": "D(1,2.0858,2.9579,2.2562,2.9583,2.2561,3.1373,2.0858,3.1367)"
+                },
+                {
+                    "content": "ancient",
+                    "span": {
+                        "offset": 87,
+                        "length": 7
+                    },
+                    "confidence": 0.99,
+                    "source": "D(1,2.3249,2.9584,2.869,2.9595,2.869,3.1396,2.3249,3.1376)"
+                },
+                {
+                    "content": "Italic",
+                    "span": {
+                        "offset": 95,
+                        "length": 6
+                    },
+                    "confidence": 0.937,
+                    "source": "D(1,2.9347,2.9597,3.2785,2.9597,3.2785,3.1406,2.9347,3.1399)"
+                },
+                {
+                    "content": "language",
+                    "span": {
+                        "offset": 102,
+                        "length": 8
+                    },
+                    "confidence": 0.995,
+                    "source": "D(1,3.3472,2.9597,3.9989,2.9595,3.9989,3.142,3.3472,3.1408)"
+                },
+                {
+                    "content": "originating",
+                    "span": {
+                        "offset": 111,
+                        "length": 11
+                    },
+                    "confidence": 0.998,
+                    "source": "D(1,0.9888,3.1922,1.7487,3.1905,1.7487,3.3821,0.9888,3.3846)"
+                },
+                {
+                    "content": "in",
+                    "span": {
+                        "offset": 123,
+                        "length": 2
+                    },
+                    "confidence": 0.998,
+                    "source": "D(1,1.8554,3.1903,1.981,3.19,1.981,3.3813,1.8554,3.3817)"
+                },
+                {
+                    "content": "the",
+                    "span": {
+                        "offset": 126,
+                        "length": 3
+                    },
+                    "confidence": 0.998,
+                    "source": "D(1,2.0972,3.1899,2.3264,3.1898,2.3264,3.3804,2.0972,3.381)"
+                },
+                {
+                    "content": "region",
+                    "span": {
+                        "offset": 130,
+                        "length": 6
+                    },
+                    "confidence": 0.998,
+                    "source": "D(1,2.4488,3.1897,2.8821,3.1894,2.8821,3.379,2.4488,3.3801)"
+                },
+                {
+                    "content": "of",
+                    "span": {
+                        "offset": 137,
+                        "length": 2
+                    },
+                    "confidence": 0.998,
+                    "source": "D(1,2.9983,3.1893,3.149,3.1894,3.149,3.3784,2.9983,3.3787)"
+                },
+                {
+                    "content": "Latium",
+                    "span": {
+                        "offset": 140,
+                        "length": 6
+                    },
+                    "confidence": 0.994,
+                    "source": "D(1,3.2558,3.1895,3.7456,3.1898,3.7456,3.3774,3.2558,3.3782)"
+                },
+                {
+                    "content": "in",
+                    "span": {
+                        "offset": 147,
+                        "length": 2
+                    },
+                    "confidence": 0.998,
+                    "source": "D(1,3.8555,3.1899,4.0031,3.19,4.0031,3.3769,3.8555,3.3772)"
+                },
+                {
+                    "content": "ancient",
+                    "span": {
+                        "offset": 150,
+                        "length": 7
+                    },
+                    "confidence": 0.997,
+                    "source": "D(1,0.9888,3.4352,1.5346,3.4368,1.5346,3.6054,0.9888,3.6045)"
+                },
+                {
+                    "content": "Rome",
+                    "span": {
+                        "offset": 158,
+                        "length": 4
+                    },
+                    "confidence": 0.999,
+                    "source": "D(1,1.5744,3.4363,1.9836,3.4258,1.9836,3.5951,1.5744,3.605)"
+                },
+                {
+                    "content": ".",
+                    "span": {
+                        "offset": 162,
+                        "length": 1
+                    },
+                    "confidence": 0.998,
+                    "source": "D(1,1.9893,3.4256,2.0347,3.4242,2.0347,3.5935,1.9893,3.5949)"
+                },
+                {
+                    "content": "2",
+                    "span": {
+                        "offset": 165,
+                        "length": 1
+                    },
+                    "confidence": 0.946,
+                    "source": "D(1,0.9873,3.8,1.1044,3.8,1.1044,4.0203,0.9873,4.0203)"
+                },
+                {
+                    "content": ".",
+                    "span": {
+                        "offset": 166,
+                        "length": 2
+                    },
+                    "confidence": 0.957,
+                    "source": "D(1,1.1044,3.8,1.1483,3.8,1.1483,4.0203,1.1044,4.0203)"
+                },
+                {
+                    "content": "Page",
+                    "span": {
+                        "offset": 169,
+                        "length": 4
+                    },
+                    "confidence": 0.963,
+                    "source": "D(1,1.2032,3.8,1.6278,3.8,1.6278,4.0203,1.2032,4.0203)"
+                },
+                {
+                    "content": "Objects",
+                    "span": {
+                        "offset": 174,
+                        "length": 7
+                    },
+                    "confidence": 0.991,
+                    "source": "D(1,1.6753,3.8,2.3927,3.8,2.3927,4.0203,1.6753,4.0203)"
+                },
+                {
+                    "content": "2.1",
+                    "span": {
+                        "offset": 183,
+                        "length": 3
+                    },
+                    "confidence": 0.942,
+                    "source": "D(1,0.9888,4.2172,1.2475,4.2199,1.2475,4.4164,0.9888,4.4134)"
+                },
+                {
+                    "content": "Table",
+                    "span": {
+                        "offset": 187,
+                        "length": 5
+                    },
+                    "confidence": 0.958,
+                    "source": "D(1,1.305,4.2201,1.8065,4.2172,1.8065,4.4159,1.305,4.4167)"
+                },
+                {
+                    "content": "Here's",
+                    "span": {
+                        "offset": 194,
+                        "length": 6
+                    },
+                    "confidence": 0.974,
+                    "source": "D(1,0.9888,4.5704,1.4433,4.5695,1.4433,4.7507,0.9888,4.7517)"
+                },
+                {
+                    "content": "a",
+                    "span": {
+                        "offset": 201,
+                        "length": 1
+                    },
+                    "confidence": 0.986,
+                    "source": "D(1,1.4854,4.5694,1.5607,4.5692,1.5607,4.7505,1.4854,4.7506)"
+                },
+                {
+                    "content": "sample",
+                    "span": {
+                        "offset": 203,
+                        "length": 6
+                    },
+                    "confidence": 0.959,
+                    "source": "D(1,1.6088,4.5691,2.1355,4.5685,2.1355,4.7496,1.6088,4.7504)"
+                },
+                {
+                    "content": "table",
+                    "span": {
+                        "offset": 210,
+                        "length": 5
+                    },
+                    "confidence": 0.983,
+                    "source": "D(1,2.1746,4.5685,2.5388,4.5688,2.5388,4.7496,2.1746,4.7496)"
+                },
+                {
+                    "content": "below",
+                    "span": {
+                        "offset": 216,
+                        "length": 5
+                    },
+                    "confidence": 0.993,
+                    "source": "D(1,2.5779,4.5688,3.0083,4.5693,3.0083,4.7497,2.5779,4.7496)"
+                },
+                {
+                    "content": ",",
+                    "span": {
+                        "offset": 221,
+                        "length": 1
+                    },
+                    "confidence": 0.998,
+                    "source": "D(1,3.0083,4.5693,3.0414,4.5694,3.0414,4.7497,3.0083,4.7497)"
+                },
+                {
+                    "content": "designed",
+                    "span": {
+                        "offset": 223,
+                        "length": 8
+                    },
+                    "confidence": 0.961,
+                    "source": "D(1,3.0866,4.5695,3.7337,4.5718,3.7337,4.751,3.0866,4.7498)"
+                },
+                {
+                    "content": "to",
+                    "span": {
+                        "offset": 232,
+                        "length": 2
+                    },
+                    "confidence": 0.963,
+                    "source": "D(1,3.7698,4.5719,3.9263,4.5724,3.9263,4.7514,3.7698,4.7511)"
+                },
+                {
+                    "content": "be",
+                    "span": {
+                        "offset": 235,
+                        "length": 2
+                    },
+                    "confidence": 0.992,
+                    "source": "D(1,0.9873,4.8097,1.1665,4.8096,1.1665,4.9924,0.9873,4.9926)"
+                },
+                {
+                    "content": "simple",
+                    "span": {
+                        "offset": 238,
+                        "length": 6
+                    },
+                    "confidence": 0.939,
+                    "source": "D(1,1.209,4.8096,1.692,4.8095,1.692,4.992,1.209,4.9924)"
+                },
+                {
+                    "content": "for",
+                    "span": {
+                        "offset": 245,
+                        "length": 3
+                    },
+                    "confidence": 0.907,
+                    "source": "D(1,1.7315,4.8095,1.929,4.8094,1.929,4.9918,1.7315,4.992)"
+                },
+                {
+                    "content": "easy",
+                    "span": {
+                        "offset": 249,
+                        "length": 4
+                    },
+                    "confidence": 0.922,
+                    "source": "D(1,1.9593,4.8094,2.2935,4.8091,2.2935,4.9918,1.9593,4.9918)"
+                },
+                {
+                    "content": "understand",
+                    "span": {
+                        "offset": 254,
+                        "length": 10
+                    },
+                    "confidence": 0.974,
+                    "source": "D(1,2.333,4.8091,3.141,4.8081,3.141,4.9917,2.333,4.9917)"
+                },
+                {
+                    "content": "and",
+                    "span": {
+                        "offset": 265,
+                        "length": 3
+                    },
+                    "confidence": 0.967,
+                    "source": "D(1,3.1866,4.8081,3.4478,4.8076,3.4478,4.9918,3.1866,4.9917)"
+                },
+                {
+                    "content": "quick",
+                    "span": {
+                        "offset": 269,
+                        "length": 5
+                    },
+                    "confidence": 0.976,
+                    "source": "D(1,3.4934,4.8075,3.9034,4.8068,3.9034,4.992,3.4934,4.9919)"
+                },
+                {
+                    "content": "reference",
+                    "span": {
+                        "offset": 275,
+                        "length": 9
+                    },
+                    "confidence": 0.999,
+                    "source": "D(1,0.9919,5.0542,1.6723,5.0554,1.6723,5.2094,0.9925,5.2116)"
+                },
+                {
+                    "content": ".",
+                    "span": {
+                        "offset": 284,
+                        "length": 1
+                    },
+                    "confidence": 0.999,
+                    "source": "D(1,1.6824,5.0554,1.7203,5.0553,1.7203,5.2089,1.6824,5.2093)"
+                },
+                {
+                    "content": "Name",
+                    "span": {
+                        "offset": 287,
+                        "length": 4
+                    },
+                    "confidence": 0.997,
+                    "source": "D(1,1.0646,5.4033,1.517,5.4033,1.517,5.5537,1.0646,5.5537)"
+                },
+                {
+                    "content": "Corp",
+                    "span": {
+                        "offset": 293,
+                        "length": 4
+                    },
+                    "confidence": 0.998,
+                    "source": "D(1,2.0669,5.4016,2.4301,5.4047,2.4301,5.5738,2.0659,5.5728)"
+                },
+                {
+                    "content": "Remark",
+                    "span": {
+                        "offset": 299,
+                        "length": 6
+                    },
+                    "confidence": 0.998,
+                    "source": "D(1,3.063,5.4006,3.6378,5.4006,3.6378,5.5537,3.063,5.5537)"
+                },
+                {
+                    "content": "Foo",
+                    "span": {
+                        "offset": 307,
+                        "length": 3
+                    },
+                    "confidence": 0.998,
+                    "source": "D(1,1.0708,5.6182,1.3458,5.6182,1.3458,5.7699,1.0708,5.7656)"
+                },
+                {
+                    "content": "Bar",
+                    "span": {
+                        "offset": 312,
+                        "length": 3
+                    },
+                    "confidence": 0.998,
+                    "source": "D(1,1.0718,5.8276,1.324,5.8276,1.324,5.9801,1.0718,5.9774)"
+                },
+                {
+                    "content": "Microsoft",
+                    "span": {
+                        "offset": 317,
+                        "length": 9
+                    },
+                    "confidence": 0.998,
+                    "source": "D(1,2.0669,5.8276,2.7642,5.8276,2.7642,5.978,2.0669,5.978)"
+                },
+                {
+                    "content": "Dummy",
+                    "span": {
+                        "offset": 328,
+                        "length": 5
+                    },
+                    "confidence": 0.998,
+                    "source": "D(1,3.0651,5.8287,3.644,5.8335,3.644,5.9925,3.0651,5.996)"
+                },
+                {
+                    "content": "Table",
+                    "span": {
+                        "offset": 335,
+                        "length": 5
+                    },
+                    "confidence": 0.953,
+                    "source": "D(1,1.5139,6.0332,1.863,6.0313,1.863,6.1929,1.5139,6.1943)"
+                },
+                {
+                    "content": "1",
+                    "span": {
+                        "offset": 341,
+                        "length": 1
+                    },
+                    "confidence": 0.984,
+                    "source": "D(1,1.9121,6.031,1.9558,6.0308,1.9558,6.1926,1.9121,6.1927)"
+                },
+                {
+                    "content": ":",
+                    "span": {
+                        "offset": 342,
+                        "length": 1
+                    },
+                    "confidence": 0.999,
+                    "source": "D(1,1.9858,6.0306,2.0158,6.0305,2.0158,6.1923,1.9858,6.1924)"
+                },
+                {
+                    "content": "This",
+                    "span": {
+                        "offset": 344,
+                        "length": 4
+                    },
+                    "confidence": 0.993,
+                    "source": "D(1,2.0513,6.0303,2.3159,6.0299,2.3159,6.1921,2.0513,6.1922)"
+                },
+                {
+                    "content": "is",
+                    "span": {
+                        "offset": 349,
+                        "length": 2
+                    },
+                    "confidence": 0.995,
+                    "source": "D(1,2.3595,6.03,2.4578,6.0302,2.4578,6.1925,2.3596,6.1922)"
+                },
+                {
+                    "content": "a",
+                    "span": {
+                        "offset": 352,
+                        "length": 1
+                    },
+                    "confidence": 0.995,
+                    "source": "D(1,2.4987,6.0303,2.5669,6.0304,2.5669,6.1928,2.4987,6.1926)"
+                },
+                {
+                    "content": "dummy",
+                    "span": {
+                        "offset": 354,
+                        "length": 5
+                    },
+                    "confidence": 0.952,
+                    "source": "D(1,2.6051,6.0305,3.1098,6.0335,3.1098,6.1962,2.6051,6.1929)"
+                },
+                {
+                    "content": "table",
+                    "span": {
+                        "offset": 360,
+                        "length": 5
+                    },
+                    "confidence": 0.962,
+                    "source": "D(1,3.1343,6.0338,3.478,6.0369,3.478,6.1997,3.1343,6.1964)"
+                },
+                {
+                    "content": "2.2",
+                    "span": {
+                        "offset": 367,
+                        "length": 3
+                    },
+                    "confidence": 0.954,
+                    "source": "D(1,0.9888,6.3755,1.2789,6.3755,1.2786,6.5952,0.9883,6.5962)"
+                },
+                {
+                    "content": ".",
+                    "span": {
+                        "offset": 370,
+                        "length": 1
+                    },
+                    "confidence": 0.95,
+                    "source": "D(1,1.2753,6.3755,1.323,6.3755,1.3227,6.5951,1.2749,6.5952)"
+                },
+                {
+                    "content": "Figure",
+                    "span": {
+                        "offset": 372,
+                        "length": 6
+                    },
+                    "confidence": 0.938,
+                    "source": "D(1,1.3781,6.3755,1.9289,6.3755,1.9289,6.5959,1.3778,6.5951)"
+                },
+                {
+                    "content": "Here",
+                    "span": {
+                        "offset": 380,
+                        "length": 4
+                    },
+                    "confidence": 0.985,
+                    "source": "D(1,0.9909,6.7293,1.3364,6.7286,1.3364,6.9107,0.9909,6.9136)"
+                },
+                {
+                    "content": "is",
+                    "span": {
+                        "offset": 385,
+                        "length": 2
+                    },
+                    "confidence": 0.974,
+                    "source": "D(1,1.3862,6.7285,1.4916,6.7283,1.4916,6.9095,1.3862,6.9103)"
+                },
+                {
+                    "content": "a",
+                    "span": {
+                        "offset": 388,
+                        "length": 1
+                    },
+                    "confidence": 0.974,
+                    "source": "D(1,1.5355,6.7283,1.6117,6.7281,1.6117,6.9085,1.5355,6.9091)"
+                },
+                {
+                    "content": "figure",
+                    "span": {
+                        "offset": 390,
+                        "length": 6
+                    },
+                    "confidence": 0.965,
+                    "source": "D(1,1.6556,6.728,2.0509,6.7283,2.0509,6.9057,1.6556,6.9081)"
+                },
+                {
+                    "content": "with",
+                    "span": {
+                        "offset": 397,
+                        "length": 4
+                    },
+                    "confidence": 0.993,
+                    "source": "D(1,2.0831,6.7283,2.3905,6.7286,2.3905,6.9038,2.0831,6.9055)"
+                },
+                {
+                    "content": "some",
+                    "span": {
+                        "offset": 402,
+                        "length": 4
+                    },
+                    "confidence": 0.992,
+                    "source": "D(1,2.4315,6.7287,2.8239,6.7302,2.8239,6.9023,2.4315,6.9036)"
+                },
+                {
+                    "content": "text",
+                    "span": {
+                        "offset": 407,
+                        "length": 4
+                    },
+                    "confidence": 0.983,
+                    "source": "D(1,2.862,6.7303,3.146,6.7314,3.146,6.9012,2.862,6.9022)"
+                },
+                {
+                    "content": "Values",
+                    "span": {
+                        "offset": 413,
+                        "length": 6
+                    },
+                    "confidence": 0.998,
+                    "source": "D(1,1.0319,7.0787,1.2628,7.0784,1.2628,7.1643,1.0319,7.1646)"
+                },
+                {
+                    "content": "500",
+                    "span": {
+                        "offset": 421,
+                        "length": 3
+                    },
+                    "confidence": 0.998,
+                    "source": "D(1,1.0791,7.2456,1.214,7.2456,1.214,7.3297,1.0791,7.3313)"
+                },
+                {
+                    "content": "450",
+                    "span": {
+                        "offset": 426,
+                        "length": 3
+                    },
+                    "confidence": 0.999,
+                    "source": "D(1,2.6936,7.3154,2.8513,7.3154,2.8513,7.4121,2.6936,7.4121)"
+                },
+                {
+                    "content": "400",
+                    "span": {
+                        "offset": 431,
+                        "length": 3
+                    },
+                    "confidence": 0.997,
+                    "source": "D(1,1.0781,7.5625,1.2181,7.5625,1.2181,7.6484,1.0781,7.6484)"
+                },
+                {
+                    "content": "400",
+                    "span": {
+                        "offset": 436,
+                        "length": 3
+                    },
+                    "confidence": 0.998,
+                    "source": "D(1,2.2557,7.4766,2.4114,7.4766,2.4114,7.5732,2.2557,7.5732)"
+                },
+                {
+                    "content": "350",
+                    "span": {
+                        "offset": 441,
+                        "length": 3
+                    },
+                    "confidence": 0.999,
+                    "source": "D(1,3.1335,7.6323,3.2954,7.6323,3.2954,7.729,3.1335,7.729)"
+                },
+                {
+                    "content": "300",
+                    "span": {
+                        "offset": 446,
+                        "length": 3
+                    },
+                    "confidence": 0.998,
+                    "source": "D(1,1.8127,7.7938,1.9673,7.7938,1.9673,7.8905,1.8127,7.8905)"
+                },
+                {
+                    "content": "300",
+                    "span": {
+                        "offset": 451,
+                        "length": 3
+                    },
+                    "confidence": 0.996,
+                    "source": "D(1,1.0781,7.8794,1.215,7.8794,1.215,7.9653,1.0781,7.9653)"
+                },
+                {
+                    "content": "250",
+                    "span": {
+                        "offset": 456,
+                        "length": 3
+                    },
+                    "confidence": 0.998,
+                    "source": "D(1,3.5776,7.9546,3.7354,7.9546,3.7354,8.0513,3.5776,8.0513)"
+                },
+                {
+                    "content": "200",
+                    "span": {
+                        "offset": 461,
+                        "length": 3
+                    },
+                    "confidence": 0.998,
+                    "source": "D(1,1.0781,8.2017,1.2202,8.2017,1.2202,8.2876,1.0781,8.2876)"
+                },
+                {
+                    "content": "200",
+                    "span": {
+                        "offset": 466,
+                        "length": 3
+                    },
+                    "confidence": 0.999,
+                    "source": "D(1,1.3655,8.1157,1.5263,8.1157,1.5263,8.2124,1.3655,8.2124)"
+                },
+                {
+                    "content": "100",
+                    "span": {
+                        "offset": 471,
+                        "length": 3
+                    },
+                    "confidence": 0.997,
+                    "source": "D(1,1.0822,8.5186,1.2181,8.5186,1.2181,8.6045,1.0822,8.6045)"
+                },
+                {
+                    "content": "0",
+                    "span": {
+                        "offset": 476,
+                        "length": 1
+                    },
+                    "confidence": 0.982,
+                    "source": "D(1,1.2078,8.8408,1.2586,8.8408,1.2586,8.916,1.2078,8.916)"
+                },
+                {
+                    "content": "Jan",
+                    "span": {
+                        "offset": 479,
+                        "length": 3
+                    },
+                    "confidence": 0.991,
+                    "source": "D(1,1.379,8.9053,1.5118,8.9053,1.5118,8.9805,1.379,8.9805)"
+                },
+                {
+                    "content": "Feb",
+                    "span": {
+                        "offset": 484,
+                        "length": 3
+                    },
+                    "confidence": 0.997,
+                    "source": "D(1,1.822,8.893,1.9559,8.8943,1.9559,8.9802,1.822,8.9789)"
+                },
+                {
+                    "content": "Mar",
+                    "span": {
+                        "offset": 489,
+                        "length": 3
+                    },
+                    "confidence": 0.998,
+                    "source": "D(1,2.2599,8.8999,2.401,8.8999,2.401,8.9848,2.2599,8.9832)"
+                },
+                {
+                    "content": "Apr",
+                    "span": {
+                        "offset": 494,
+                        "length": 3
+                    },
+                    "confidence": 0.994,
+                    "source": "D(1,2.7081,8.9053,2.8389,8.9053,2.8389,8.9912,2.7081,8.9912)"
+                },
+                {
+                    "content": "May",
+                    "span": {
+                        "offset": 499,
+                        "length": 3
+                    },
+                    "confidence": 0.994,
+                    "source": "D(1,3.1377,8.8991,3.2871,8.9064,3.2871,8.9924,3.1377,8.985)"
+                },
+                {
+                    "content": "Jun",
+                    "span": {
+                        "offset": 504,
+                        "length": 3
+                    },
+                    "confidence": 0.972,
+                    "source": "D(1,3.5859,8.8999,3.7229,8.8999,3.7229,8.979,3.5859,8.9792)"
+                },
+                {
+                    "content": "Months",
+                    "span": {
+                        "offset": 509,
+                        "length": 6
+                    },
+                    "confidence": 0.998,
+                    "source": "D(1,3.9014,8.8945,4.1504,8.8945,4.1504,8.9805,3.9014,8.9805)"
+                },
+                {
+                    "content": "3",
+                    "span": {
+                        "offset": 517,
+                        "length": 1
+                    },
+                    "confidence": 0.988,
+                    "source": "D(1,0.9873,9.2222,1.1021,9.2222,1.1021,9.4155,0.9873,9.4155)"
+                },
+                {
+                    "content": ".",
+                    "span": {
+                        "offset": 518,
+                        "length": 2
+                    },
+                    "confidence": 0.991,
+                    "source": "D(1,1.1054,9.2222,1.148,9.2222,1.148,9.4155,1.1054,9.4155)"
+                },
+                {
+                    "content": "Others",
+                    "span": {
+                        "offset": 521,
+                        "length": 6
+                    },
+                    "confidence": 0.981,
+                    "source": "D(1,1.1973,9.2222,1.8272,9.2222,1.8272,9.4155,1.1973,9.4155)"
+                },
+                {
+                    "content": "AI",
+                    "span": {
+                        "offset": 529,
+                        "length": 2
+                    },
+                    "confidence": 1,
+                    "source": "D(1,0.9805,9.5722,1.1236,9.5719,1.1236,9.7545,0.9805,9.7548)"
+                },
+                {
+                    "content": "Document",
+                    "span": {
+                        "offset": 532,
+                        "length": 8
+                    },
+                    "confidence": 1,
+                    "source": "D(1,1.1663,9.5718,1.9305,9.5702,1.9305,9.7529,1.1663,9.7544)"
+                },
+                {
+                    "content": "Intelligence",
+                    "span": {
+                        "offset": 541,
+                        "length": 12
+                    },
+                    "confidence": 1,
+                    "source": "D(1,1.967,9.5702,2.7921,9.568,2.7921,9.7507,1.967,9.7528)"
+                },
+                {
+                    "content": "is",
+                    "span": {
+                        "offset": 554,
+                        "length": 2
+                    },
+                    "confidence": 1,
+                    "source": "D(1,2.8378,9.5679,2.9505,9.5676,2.9505,9.7502,2.8378,9.7505)"
+                },
+                {
+                    "content": "an",
+                    "span": {
+                        "offset": 557,
+                        "length": 2
+                    },
+                    "confidence": 1,
+                    "source": "D(1,2.99,9.5675,3.1605,9.567,3.1605,9.7496,2.99,9.7501)"
+                },
+                {
+                    "content": "AI",
+                    "span": {
+                        "offset": 560,
+                        "length": 2
+                    },
+                    "confidence": 1,
+                    "source": "D(1,3.194,9.5669,3.3371,9.5664,3.3371,9.749,3.194,9.7495)"
+                },
+                {
+                    "content": "service",
+                    "span": {
+                        "offset": 563,
+                        "length": 7
+                    },
+                    "confidence": 1,
+                    "source": "D(1,3.3798,9.5663,3.9034,9.5647,3.9034,9.7473,3.3798,9.7489)"
+                },
+                {
+                    "content": "that",
+                    "span": {
+                        "offset": 571,
+                        "length": 4
+                    },
+                    "confidence": 0.994,
+                    "source": "D(1,0.9821,9.8023,1.2784,9.8015,1.2784,9.9854,0.9821,9.9853)"
+                },
+                {
+                    "content": "applies",
+                    "span": {
+                        "offset": 576,
+                        "length": 7
+                    },
+                    "confidence": 0.996,
+                    "source": "D(1,1.3127,9.8014,1.8304,9.7999,1.8304,9.9855,1.3127,9.9854)"
+                },
+                {
+                    "content": "advanced",
+                    "span": {
+                        "offset": 584,
+                        "length": 8
+                    },
+                    "confidence": 0.997,
+                    "source": "D(1,1.871,9.7998,2.5727,9.7984,2.5728,9.9868,1.871,9.9855)"
+                },
+                {
+                    "content": "machine",
+                    "span": {
+                        "offset": 593,
+                        "length": 7
+                    },
+                    "confidence": 0.994,
+                    "source": "D(1,2.6226,9.7984,3.2402,9.7976,3.2402,9.9887,2.6227,9.9869)"
+                },
+                {
+                    "content": "learning",
+                    "span": {
+                        "offset": 601,
+                        "length": 8
+                    },
+                    "confidence": 0.988,
+                    "source": "D(1,3.2839,9.7976,3.8765,9.7972,3.8765,9.9912,3.2839,9.9889)"
+                },
+                {
+                    "content": "to",
+                    "span": {
+                        "offset": 611,
+                        "length": 2
+                    },
+                    "confidence": 0.96,
+                    "source": "D(1,4.4783,2.2063,4.6304,2.2072,4.6304,2.3789,4.4783,2.378)"
+                },
+                {
+                    "content": "extract",
+                    "span": {
+                        "offset": 614,
+                        "length": 7
+                    },
+                    "confidence": 0.476,
+                    "source": "D(1,4.6706,2.2074,5.1616,2.2101,5.1616,2.382,4.6706,2.3791)"
+                },
+                {
+                    "content": "text",
+                    "span": {
+                        "offset": 624,
+                        "length": 4
+                    },
+                    "confidence": 0.689,
+                    "source": "D(1,5.196,2.2103,5.4659,2.2112,5.4659,2.3834,5.196,2.3822)"
+                },
+                {
+                    "content": ",",
+                    "span": {
+                        "offset": 628,
+                        "length": 1
+                    },
+                    "confidence": 0.998,
+                    "source": "D(1,5.4688,2.2112,5.5003,2.2112,5.5003,2.3834,5.4688,2.3834)"
+                },
+                {
+                    "content": "key",
+                    "span": {
+                        "offset": 630,
+                        "length": 3
+                    },
+                    "confidence": 0.991,
+                    "source": "D(1,5.552,2.2111,5.7903,2.2109,5.7903,2.3834,5.552,2.3834)"
+                },
+                {
+                    "content": "-",
+                    "span": {
+                        "offset": 633,
+                        "length": 1
+                    },
+                    "confidence": 0.999,
+                    "source": "D(1,5.7932,2.2109,5.8363,2.2108,5.8362,2.3835,5.7932,2.3834)"
+                },
+                {
+                    "content": "value",
+                    "span": {
+                        "offset": 634,
+                        "length": 5
+                    },
+                    "confidence": 0.974,
+                    "source": "D(1,5.8449,2.2108,6.2267,2.2104,6.2267,2.3836,5.8449,2.3835)"
+                },
+                {
+                    "content": "pairs",
+                    "span": {
+                        "offset": 640,
+                        "length": 5
+                    },
+                    "confidence": 0.944,
+                    "source": "D(1,6.2726,2.2104,6.6172,2.2079,6.6172,2.3818,6.2726,2.3836)"
+                },
+                {
+                    "content": ",",
+                    "span": {
+                        "offset": 645,
+                        "length": 1
+                    },
+                    "confidence": 0.999,
+                    "source": "D(1,6.6229,2.2078,6.6545,2.2076,6.6545,2.3816,6.6229,2.3817)"
+                },
+                {
+                    "content": "tables",
+                    "span": {
+                        "offset": 647,
+                        "length": 6
+                    },
+                    "confidence": 0.964,
+                    "source": "D(1,6.7004,2.2072,7.1425,2.2039,7.1425,2.3789,6.7004,2.3813)"
+                },
+                {
+                    "content": ",",
+                    "span": {
+                        "offset": 653,
+                        "length": 1
+                    },
+                    "confidence": 0.995,
+                    "source": "D(1,7.1512,2.2038,7.1885,2.2035,7.1885,2.3787,7.1512,2.3789)"
+                },
+                {
+                    "content": "and",
+                    "span": {
+                        "offset": 657,
+                        "length": 3
+                    },
+                    "confidence": 0.999,
+                    "source": "D(1,4.4866,2.4493,4.7531,2.4492,4.7531,2.6119,4.4866,2.6121)"
+                },
+                {
+                    "content": "structures",
+                    "span": {
+                        "offset": 661,
+                        "length": 10
+                    },
+                    "confidence": 0.998,
+                    "source": "D(1,4.7988,2.4492,5.5337,2.4484,5.5337,2.6109,4.7988,2.6119)"
+                },
+                {
+                    "content": "from",
+                    "span": {
+                        "offset": 672,
+                        "length": 4
+                    },
+                    "confidence": 0.999,
+                    "source": "D(1,5.5687,2.4483,5.8971,2.4476,5.8971,2.6102,5.5687,2.6109)"
+                },
+                {
+                    "content": "documents",
+                    "span": {
+                        "offset": 677,
+                        "length": 9
+                    },
+                    "confidence": 0.998,
+                    "source": "D(1,5.9402,2.4475,6.7693,2.4445,6.7693,2.6074,5.9402,2.6101)"
+                },
+                {
+                    "content": "automatically",
+                    "span": {
+                        "offset": 687,
+                        "length": 13
+                    },
+                    "confidence": 0.995,
+                    "source": "D(1,4.4824,2.6839,5.4792,2.6852,5.4792,2.8592,4.4824,2.8558)"
+                },
+                {
+                    "content": "and",
+                    "span": {
+                        "offset": 701,
+                        "length": 3
+                    },
+                    "confidence": 0.999,
+                    "source": "D(1,5.5108,2.6852,5.7751,2.6847,5.7751,2.8591,5.5108,2.8592)"
+                },
+                {
+                    "content": "accurately",
+                    "span": {
+                        "offset": 705,
+                        "length": 10
+                    },
+                    "confidence": 0.992,
+                    "source": "D(1,5.8182,2.6846,6.5794,2.6816,6.5794,2.8568,5.8182,2.859)"
+                },
+                {
+                    "content": ".",
+                    "span": {
+                        "offset": 715,
+                        "length": 1
+                    },
+                    "confidence": 0.978,
+                    "source": "D(1,6.5708,2.6817,6.5995,2.6815,6.5995,2.8567,6.5708,2.8568)"
+                },
+                {
+                    "content": "Turn",
+                    "span": {
+                        "offset": 717,
+                        "length": 4
+                    },
+                    "confidence": 0.99,
+                    "source": "D(1,6.6398,2.6813,6.9644,2.6795,6.9644,2.8549,6.6398,2.8565)"
+                },
+                {
+                    "content": "documents",
+                    "span": {
+                        "offset": 722,
+                        "length": 9
+                    },
+                    "confidence": 0.997,
+                    "source": "D(1,4.4866,2.9145,5.3077,2.9168,5.3077,3.0831,4.4866,3.0813)"
+                },
+                {
+                    "content": "into",
+                    "span": {
+                        "offset": 732,
+                        "length": 4
+                    },
+                    "confidence": 0.993,
+                    "source": "D(1,5.3524,2.9169,5.6149,2.9169,5.6149,3.0832,5.3524,3.0832)"
+                },
+                {
+                    "content": "usable",
+                    "span": {
+                        "offset": 737,
+                        "length": 6
+                    },
+                    "confidence": 0.995,
+                    "source": "D(1,5.6624,2.9168,6.14,2.9165,6.1399,3.083,5.6624,3.0832)"
+                },
+                {
+                    "content": "data",
+                    "span": {
+                        "offset": 744,
+                        "length": 4
+                    },
+                    "confidence": 0.986,
+                    "source": "D(1,6.1791,2.9165,6.4919,2.9155,6.4919,3.0824,6.1791,3.083)"
+                },
+                {
+                    "content": "and",
+                    "span": {
+                        "offset": 749,
+                        "length": 3
+                    },
+                    "confidence": 0.982,
+                    "source": "D(1,6.5393,2.9153,6.7991,2.9143,6.7991,3.0816,6.5393,3.0823)"
+                },
+                {
+                    "content": "shift",
+                    "span": {
+                        "offset": 753,
+                        "length": 5
+                    },
+                    "confidence": 0.991,
+                    "source": "D(1,6.8465,2.9141,7.1677,2.9128,7.1677,3.0805,6.8465,3.0814)"
+                },
+                {
+                    "content": "your",
+                    "span": {
+                        "offset": 759,
+                        "length": 4
+                    },
+                    "confidence": 0.979,
+                    "source": "D(1,4.4741,3.1569,4.8063,3.1558,4.8063,3.3306,4.4741,3.3313)"
+                },
+                {
+                    "content": "focus",
+                    "span": {
+                        "offset": 764,
+                        "length": 5
+                    },
+                    "confidence": 0.958,
+                    "source": "D(1,4.8355,3.1557,5.2318,3.1543,5.2318,3.3297,4.8355,3.3305)"
+                },
+                {
+                    "content": "to",
+                    "span": {
+                        "offset": 770,
+                        "length": 2
+                    },
+                    "confidence": 0.976,
+                    "source": "D(1,5.2726,3.1542,5.4154,3.1537,5.4154,3.3293,5.2726,3.3296)"
+                },
+                {
+                    "content": "acting",
+                    "span": {
+                        "offset": 773,
+                        "length": 6
+                    },
+                    "confidence": 0.949,
+                    "source": "D(1,5.4533,3.1536,5.8992,3.1519,5.8992,3.3278,5.4533,3.3292)"
+                },
+                {
+                    "content": "on",
+                    "span": {
+                        "offset": 780,
+                        "length": 2
+                    },
+                    "confidence": 0.98,
+                    "source": "D(1,5.9341,3.1518,6.1032,3.1512,6.1032,3.3272,5.9341,3.3277)"
+                },
+                {
+                    "content": "information",
+                    "span": {
+                        "offset": 783,
+                        "length": 11
+                    },
+                    "confidence": 0.978,
+                    "source": "D(1,6.1527,3.151,6.9774,3.1477,6.9774,3.3242,6.1527,3.3271)"
+                },
+                {
+                    "content": "rather",
+                    "span": {
+                        "offset": 795,
+                        "length": 6
+                    },
+                    "confidence": 0.99,
+                    "source": "D(1,7.0211,3.1475,7.4583,3.1457,7.4583,3.3223,7.0211,3.324)"
+                },
+                {
+                    "content": "than",
+                    "span": {
+                        "offset": 802,
+                        "length": 4
+                    },
+                    "confidence": 0.997,
+                    "source": "D(1,4.4783,3.3886,4.8075,3.3867,4.8075,3.5658,4.4783,3.5683)"
+                },
+                {
+                    "content": "compiling",
+                    "span": {
+                        "offset": 807,
+                        "length": 9
+                    },
+                    "confidence": 0.985,
+                    "source": "D(1,4.8494,3.3864,5.5646,3.3829,5.5646,3.561,4.8494,3.5654)"
+                },
+                {
+                    "content": "it",
+                    "span": {
+                        "offset": 817,
+                        "length": 2
+                    },
+                    "confidence": 0.934,
+                    "source": "D(1,5.6035,3.3828,5.6933,3.3825,5.6933,3.5606,5.6035,3.5609)"
+                },
+                {
+                    "content": ".",
+                    "span": {
+                        "offset": 819,
+                        "length": 1
+                    },
+                    "confidence": 0.982,
+                    "source": "D(1,5.6963,3.3825,5.7262,3.3824,5.7262,3.5605,5.6963,3.5606)"
+                },
+                {
+                    "content": "Start",
+                    "span": {
+                        "offset": 821,
+                        "length": 5
+                    },
+                    "confidence": 0.924,
+                    "source": "D(1,5.7681,3.3823,6.1183,3.3813,6.1183,3.5593,5.7681,3.5604)"
+                },
+                {
+                    "content": "with",
+                    "span": {
+                        "offset": 827,
+                        "length": 4
+                    },
+                    "confidence": 0.968,
+                    "source": "D(1,6.1452,3.3812,6.4505,3.3811,6.4505,3.5594,6.1452,3.5593)"
+                },
+                {
+                    "content": "prebuilt",
+                    "span": {
+                        "offset": 832,
+                        "length": 8
+                    },
+                    "confidence": 0.993,
+                    "source": "D(1,6.4924,3.3811,7.064,3.3812,7.064,3.5603,6.4924,3.5595)"
+                },
+                {
+                    "content": "models",
+                    "span": {
+                        "offset": 841,
+                        "length": 6
+                    },
+                    "confidence": 0.995,
+                    "source": "D(1,4.4824,3.6219,5.022,3.6224,5.022,3.7893,4.4824,3.7893)"
+                },
+                {
+                    "content": "or",
+                    "span": {
+                        "offset": 848,
+                        "length": 2
+                    },
+                    "confidence": 0.981,
+                    "source": "D(1,5.0669,3.6224,5.2131,3.6226,5.2131,3.7893,5.0669,3.7893)"
+                },
+                {
+                    "content": "create",
+                    "span": {
+                        "offset": 851,
+                        "length": 6
+                    },
+                    "confidence": 0.987,
+                    "source": "D(1,5.2496,3.6226,5.702,3.6226,5.702,3.7893,5.2496,3.7893)"
+                },
+                {
+                    "content": "custom",
+                    "span": {
+                        "offset": 858,
+                        "length": 6
+                    },
+                    "confidence": 0.987,
+                    "source": "D(1,5.7414,3.6226,6.2809,3.6222,6.2809,3.7893,5.7414,3.7893)"
+                },
+                {
+                    "content": "models",
+                    "span": {
+                        "offset": 865,
+                        "length": 6
+                    },
+                    "confidence": 0.984,
+                    "source": "D(1,6.3259,3.6221,6.8486,3.6211,6.8486,3.7893,6.3259,3.7893)"
+                },
+                {
+                    "content": "tailored",
+                    "span": {
+                        "offset": 872,
+                        "length": 8
+                    },
+                    "confidence": 0.993,
+                    "source": "D(1,6.8935,3.621,7.45,3.6196,7.45,3.7893,6.8935,3.7893)"
+                },
+                {
+                    "content": "to",
+                    "span": {
+                        "offset": 881,
+                        "length": 2
+                    },
+                    "confidence": 0.995,
+                    "source": "D(1,4.4783,3.8626,4.6309,3.8629,4.6309,4.0402,4.4783,4.0398)"
+                },
+                {
+                    "content": "your",
+                    "span": {
+                        "offset": 884,
+                        "length": 4
+                    },
+                    "confidence": 0.989,
+                    "source": "D(1,4.6662,3.863,4.992,3.8638,4.992,4.0411,4.6662,4.0403)"
+                },
+                {
+                    "content": "documents",
+                    "span": {
+                        "offset": 889,
+                        "length": 9
+                    },
+                    "confidence": 0.997,
+                    "source": "D(1,5.0214,3.8639,5.8287,3.8642,5.8287,4.0414,5.0214,4.0411)"
+                },
+                {
+                    "content": "both",
+                    "span": {
+                        "offset": 899,
+                        "length": 4
+                    },
+                    "confidence": 0.998,
+                    "source": "D(1,5.8757,3.8641,6.2016,3.8634,6.2016,4.0406,5.8757,4.0413)"
+                },
+                {
+                    "content": "on",
+                    "span": {
+                        "offset": 904,
+                        "length": 2
+                    },
+                    "confidence": 0.996,
+                    "source": "D(1,6.2427,3.8633,6.4159,3.8629,6.4159,4.0402,6.2427,4.0405)"
+                },
+                {
+                    "content": "premises",
+                    "span": {
+                        "offset": 907,
+                        "length": 8
+                    },
+                    "confidence": 0.99,
+                    "source": "D(1,6.4599,3.8628,7.1146,3.8583,7.1146,4.0356,6.4599,4.04)"
+                },
+                {
+                    "content": "and",
+                    "span": {
+                        "offset": 916,
+                        "length": 3
+                    },
+                    "confidence": 0.998,
+                    "source": "D(1,7.1498,3.8581,7.4375,3.8562,7.4375,4.0334,7.1498,4.0354)"
+                },
+                {
+                    "content": "in",
+                    "span": {
+                        "offset": 920,
+                        "length": 2
+                    },
+                    "confidence": 1,
+                    "source": "D(1,4.4824,4.095,4.613,4.0952,4.613,4.2619,4.4824,4.2618)"
+                },
+                {
+                    "content": "the",
+                    "span": {
+                        "offset": 923,
+                        "length": 3
+                    },
+                    "confidence": 1,
+                    "source": "D(1,4.6519,4.0952,4.8824,4.0954,4.8824,4.262,4.6519,4.2619)"
+                },
+                {
+                    "content": "cloud",
+                    "span": {
+                        "offset": 927,
+                        "length": 5
+                    },
+                    "confidence": 1,
+                    "source": "D(1,4.9241,4.0954,5.3269,4.0958,5.3269,4.2621,4.9241,4.262)"
+                },
+                {
+                    "content": "with",
+                    "span": {
+                        "offset": 933,
+                        "length": 4
+                    },
+                    "confidence": 1,
+                    "source": "D(1,5.3686,4.0958,5.663,4.0955,5.663,4.2619,5.3686,4.262)"
+                },
+                {
+                    "content": "the",
+                    "span": {
+                        "offset": 938,
+                        "length": 3
+                    },
+                    "confidence": 1,
+                    "source": "D(1,5.6992,4.0955,5.9297,4.0954,5.9297,4.2619,5.6992,4.2619)"
+                },
+                {
+                    "content": "AI",
+                    "span": {
+                        "offset": 942,
+                        "length": 2
+                    },
+                    "confidence": 1,
+                    "source": "D(1,5.9631,4.0953,6.1075,4.0952,6.1075,4.2618,5.9631,4.2618)"
+                },
+                {
+                    "content": "Document",
+                    "span": {
+                        "offset": 945,
+                        "length": 8
+                    },
+                    "confidence": 1,
+                    "source": "D(1,6.1547,4.0951,6.927,4.0933,6.927,4.261,6.1547,4.2618)"
+                },
+                {
+                    "content": "Intelligence",
+                    "span": {
+                        "offset": 954,
+                        "length": 12
+                    },
+                    "confidence": 0.995,
+                    "source": "D(1,4.4866,4.3354,5.3251,4.3313,5.3251,4.5051,4.4866,4.5135)"
+                },
+                {
+                    "content": "studio",
+                    "span": {
+                        "offset": 969,
+                        "length": 6
+                    },
+                    "confidence": 0.973,
+                    "source": "D(1,5.3684,4.3311,5.8166,4.3291,5.8166,4.5013,5.3684,4.5047)"
+                },
+                {
+                    "content": "or",
+                    "span": {
+                        "offset": 978,
+                        "length": 2
+                    },
+                    "confidence": 0.981,
+                    "source": "D(1,5.8542,4.3289,6.0016,4.3283,6.0016,4.5004,5.8542,4.5011)"
+                },
+                {
+                    "content": "SDK",
+                    "span": {
+                        "offset": 981,
+                        "length": 3
+                    },
+                    "confidence": 0.991,
+                    "source": "D(1,6.0306,4.3282,6.3428,4.3268,6.3428,4.4985,6.0306,4.5002)"
+                },
+                {
+                    "content": ".",
+                    "span": {
+                        "offset": 984,
+                        "length": 1
+                    },
+                    "confidence": 0.998,
+                    "source": "D(1,6.3428,4.3268,6.3833,4.3267,6.3833,4.4983,6.3428,4.4985)"
+                },
+                {
+                    "content": "The",
+                    "span": {
+                        "offset": 987,
+                        "length": 3
+                    },
+                    "confidence": 1,
+                    "source": "D(1,4.4783,4.6729,4.7435,4.6729,4.7435,4.8446,4.4783,4.8445)"
+                },
+                {
+                    "content": "custom",
+                    "span": {
+                        "offset": 991,
+                        "length": 6
+                    },
+                    "confidence": 1,
+                    "source": "D(1,4.7868,4.6729,5.3173,4.6728,5.3173,4.8449,4.7868,4.8446)"
+                },
+                {
+                    "content": "extraction",
+                    "span": {
+                        "offset": 998,
+                        "length": 10
+                    },
+                    "confidence": 1,
+                    "source": "D(1,5.3605,4.6728,6.0784,4.6725,6.0784,4.8449,5.3605,4.8449)"
+                },
+                {
+                    "content": "capabilities",
+                    "span": {
+                        "offset": 1009,
+                        "length": 12
+                    },
+                    "confidence": 1,
+                    "source": "D(1,6.1188,4.6725,6.9491,4.6718,6.9491,4.8444,6.1188,4.8449)"
+                },
+                {
+                    "content": "in",
+                    "span": {
+                        "offset": 1022,
+                        "length": 2
+                    },
+                    "confidence": 1,
+                    "source": "D(1,6.9924,4.6718,7.1106,4.6717,7.1106,4.8443,6.9924,4.8444)"
+                },
+                {
+                    "content": "AI",
+                    "span": {
+                        "offset": 1025,
+                        "length": 2
+                    },
+                    "confidence": 1,
+                    "source": "D(1,7.1423,4.6717,7.2922,4.6715,7.2922,4.8442,7.1423,4.8443)"
+                },
+                {
+                    "content": "Document",
+                    "span": {
+                        "offset": 1028,
+                        "length": 8
+                    },
+                    "confidence": 0.997,
+                    "source": "D(1,4.4949,4.9091,5.2549,4.9124,5.2549,5.0842,4.4949,5.0812)"
+                },
+                {
+                    "content": "Intelligence",
+                    "span": {
+                        "offset": 1037,
+                        "length": 12
+                    },
+                    "confidence": 0.995,
+                    "source": "D(1,5.2927,4.9125,6.1166,4.9156,6.1166,5.0882,5.2927,5.0844)"
+                },
+                {
+                    "content": "help",
+                    "span": {
+                        "offset": 1050,
+                        "length": 4
+                    },
+                    "confidence": 0.997,
+                    "source": "D(1,6.1601,4.9157,6.4647,4.9167,6.4647,5.09,6.1601,5.0884)"
+                },
+                {
+                    "content": "you",
+                    "span": {
+                        "offset": 1055,
+                        "length": 3
+                    },
+                    "confidence": 0.998,
+                    "source": "D(1,6.4937,4.9168,6.7693,4.9177,6.7693,5.0915,6.4937,5.0901)"
+                },
+                {
+                    "content": "overcome",
+                    "span": {
+                        "offset": 1059,
+                        "length": 8
+                    },
+                    "confidence": 0.997,
+                    "source": "D(1,4.4866,5.1574,5.204,5.1552,5.204,5.3307,4.4866,5.3289)"
+                },
+                {
+                    "content": "this",
+                    "span": {
+                        "offset": 1068,
+                        "length": 4
+                    },
+                    "confidence": 0.999,
+                    "source": "D(1,5.245,5.155,5.5056,5.1545,5.5056,5.3314,5.245,5.3308)"
+                },
+                {
+                    "content": "challenge",
+                    "span": {
+                        "offset": 1073,
+                        "length": 9
+                    },
+                    "confidence": 0.996,
+                    "source": "D(1,5.5436,5.1545,6.2464,5.1543,6.2464,5.3326,5.5436,5.3314)"
+                },
+                {
+                    "content": "by",
+                    "span": {
+                        "offset": 1083,
+                        "length": 2
+                    },
+                    "confidence": 0.991,
+                    "source": "D(1,6.2874,5.1543,6.4572,5.1546,6.4572,5.3328,6.2874,5.3326)"
+                },
+                {
+                    "content": "training",
+                    "span": {
+                        "offset": 1086,
+                        "length": 8
+                    },
+                    "confidence": 0.93,
+                    "source": "D(1,6.4806,5.1546,7.0282,5.156,7.0282,5.3332,6.4806,5.3328)"
+                },
+                {
+                    "content": "on",
+                    "span": {
+                        "offset": 1095,
+                        "length": 2
+                    },
+                    "confidence": 0.997,
+                    "source": "D(1,7.0575,5.1561,7.2507,5.1565,7.2507,5.3333,7.0575,5.3332)"
+                },
+                {
+                    "content": "your",
+                    "span": {
+                        "offset": 1098,
+                        "length": 4
+                    },
+                    "confidence": 0.996,
+                    "source": "D(1,4.4783,5.3863,4.8073,5.3862,4.8073,5.5614,4.4783,5.5603)"
+                },
+                {
+                    "content": "own",
+                    "span": {
+                        "offset": 1103,
+                        "length": 3
+                    },
+                    "confidence": 0.997,
+                    "source": "D(1,4.8397,5.3862,5.1335,5.3861,5.1335,5.5625,4.8397,5.5615)"
+                },
+                {
+                    "content": "data",
+                    "span": {
+                        "offset": 1107,
+                        "length": 4
+                    },
+                    "confidence": 0.995,
+                    "source": "D(1,5.1746,5.3861,5.4919,5.3851,5.4919,5.5627,5.1746,5.5626)"
+                },
+                {
+                    "content": "based",
+                    "span": {
+                        "offset": 1112,
+                        "length": 5
+                    },
+                    "confidence": 0.994,
+                    "source": "D(1,5.536,5.3849,5.9679,5.3833,5.9679,5.5623,5.536,5.5626)"
+                },
+                {
+                    "content": "on",
+                    "span": {
+                        "offset": 1118,
+                        "length": 2
+                    },
+                    "confidence": 0.993,
+                    "source": "D(1,6.012,5.3832,6.1853,5.3819,6.1853,5.5614,6.012,5.5622)"
+                },
+                {
+                    "content": "just",
+                    "span": {
+                        "offset": 1121,
+                        "length": 4
+                    },
+                    "confidence": 0.879,
+                    "source": "D(1,6.2176,5.3817,6.4909,5.3798,6.4909,5.5599,6.2176,5.5612)"
+                },
+                {
+                    "content": "five",
+                    "span": {
+                        "offset": 1126,
+                        "length": 4
+                    },
+                    "confidence": 0.981,
+                    "source": "D(1,6.5203,5.3796,6.7817,5.3777,6.7817,5.5584,6.5202,5.5597)"
+                },
+                {
+                    "content": "documents",
+                    "span": {
+                        "offset": 1131,
+                        "length": 9
+                    },
+                    "confidence": 0.984,
+                    "source": "D(1,4.4866,5.6219,5.3115,5.6191,5.3115,5.7998,4.4866,5.797)"
+                },
+                {
+                    "content": ".",
+                    "span": {
+                        "offset": 1140,
+                        "length": 1
+                    },
+                    "confidence": 0.983,
+                    "source": "D(1,5.3206,5.6191,5.3508,5.619,5.3508,5.8,5.3206,5.7999)"
+                },
+                {
+                    "content": "Not",
+                    "span": {
+                        "offset": 1142,
+                        "length": 3
+                    },
+                    "confidence": 0.98,
+                    "source": "D(1,5.3961,5.6188,5.656,5.6185,5.656,5.8004,5.3961,5.8001)"
+                },
+                {
+                    "content": "only",
+                    "span": {
+                        "offset": 1146,
+                        "length": 4
+                    },
+                    "confidence": 0.979,
+                    "source": "D(1,5.6892,5.6185,5.9914,5.6181,5.9914,5.8008,5.6892,5.8005)"
+                },
+                {
+                    "content": "is",
+                    "span": {
+                        "offset": 1151,
+                        "length": 2
+                    },
+                    "confidence": 0.986,
+                    "source": "D(1,6.0277,5.6181,6.1395,5.6179,6.1395,5.801,6.0277,5.8009)"
+                },
+                {
+                    "content": "the",
+                    "span": {
+                        "offset": 1154,
+                        "length": 3
+                    },
+                    "confidence": 0.979,
+                    "source": "D(1,6.1727,5.6179,6.4024,5.6178,6.4024,5.8011,6.1727,5.8011)"
+                },
+                {
+                    "content": "first",
+                    "span": {
+                        "offset": 1158,
+                        "length": 5
+                    },
+                    "confidence": 0.982,
+                    "source": "D(1,6.4417,5.6178,6.7166,5.6181,6.7166,5.8008,6.4417,5.8011)"
+                },
+                {
+                    "content": "output",
+                    "span": {
+                        "offset": 1164,
+                        "length": 6
+                    },
+                    "confidence": 0.997,
+                    "source": "D(1,6.7499,5.6182,7.2424,5.6187,7.2424,5.8002,6.7499,5.8008)"
+                },
+                {
+                    "content": "more",
+                    "span": {
+                        "offset": 1171,
+                        "length": 4
+                    },
+                    "confidence": 0.996,
+                    "source": "D(1,4.4866,5.8543,4.8606,5.8534,4.8606,6.0286,4.4866,6.0264)"
+                },
+                {
+                    "content": "reliable",
+                    "span": {
+                        "offset": 1176,
+                        "length": 8
+                    },
+                    "confidence": 0.994,
+                    "source": "D(1,4.9081,5.8533,5.4334,5.8522,5.4334,6.0319,4.9081,6.0288)"
+                },
+                {
+                    "content": "and",
+                    "span": {
+                        "offset": 1185,
+                        "length": 3
+                    },
+                    "confidence": 0.997,
+                    "source": "D(1,5.478,5.8521,5.7303,5.8522,5.7302,6.0328,5.4779,6.0321)"
+                },
+                {
+                    "content": "tailored",
+                    "span": {
+                        "offset": 1189,
+                        "length": 8
+                    },
+                    "confidence": 0.99,
+                    "source": "D(1,5.7807,5.8522,6.3239,5.8524,6.3239,6.0344,5.7807,6.0329)"
+                },
+                {
+                    "content": "to",
+                    "span": {
+                        "offset": 1198,
+                        "length": 2
+                    },
+                    "confidence": 0.988,
+                    "source": "D(1,6.3714,5.8524,6.5139,5.8528,6.5139,6.0347,6.3714,6.0345)"
+                },
+                {
+                    "content": "your",
+                    "span": {
+                        "offset": 1201,
+                        "length": 4
+                    },
+                    "confidence": 0.971,
+                    "source": "D(1,6.5495,5.8529,6.873,5.8538,6.873,6.0346,6.5495,6.0346)"
+                },
+                {
+                    "content": "needs",
+                    "span": {
+                        "offset": 1206,
+                        "length": 5
+                    },
+                    "confidence": 0.983,
+                    "source": "D(1,6.9086,5.8539,7.3361,5.8552,7.3361,6.0345,6.9086,6.0346)"
+                },
+                {
+                    "content": ",",
+                    "span": {
+                        "offset": 1211,
+                        "length": 1
+                    },
+                    "confidence": 0.99,
+                    "source": "D(1,7.342,5.8552,7.3835,5.8554,7.3835,6.0345,7.342,6.0345)"
+                },
+                {
+                    "content": "but",
+                    "span": {
+                        "offset": 1213,
+                        "length": 3
+                    },
+                    "confidence": 0.94,
+                    "source": "D(1,4.4824,6.0906,4.7279,6.0909,4.7279,6.263,4.4824,6.2618)"
+                },
+                {
+                    "content": "it",
+                    "span": {
+                        "offset": 1217,
+                        "length": 2
+                    },
+                    "confidence": 0.934,
+                    "source": "D(1,4.7688,6.091,4.8594,6.0911,4.8594,6.2636,4.7688,6.2632)"
+                },
+                {
+                    "content": "also",
+                    "span": {
+                        "offset": 1220,
+                        "length": 4
+                    },
+                    "confidence": 0.966,
+                    "source": "D(1,4.8945,6.0911,5.1926,6.0915,5.1926,6.2653,4.8945,6.2638)"
+                },
+                {
+                    "content": "allows",
+                    "span": {
+                        "offset": 1225,
+                        "length": 6
+                    },
+                    "confidence": 0.99,
+                    "source": "D(1,5.2335,6.0916,5.6924,6.092,5.6924,6.267,5.2335,6.2655)"
+                },
+                {
+                    "content": "you",
+                    "span": {
+                        "offset": 1232,
+                        "length": 3
+                    },
+                    "confidence": 0.979,
+                    "source": "D(1,5.7274,6.092,5.9846,6.0922,5.9846,6.2676,5.7274,6.267)"
+                },
+                {
+                    "content": "to",
+                    "span": {
+                        "offset": 1236,
+                        "length": 2
+                    },
+                    "confidence": 0.943,
+                    "source": "D(1,6.0255,6.0922,6.1658,6.0923,6.1658,6.268,6.0255,6.2677)"
+                },
+                {
+                    "content": "provide",
+                    "span": {
+                        "offset": 1239,
+                        "length": 7
+                    },
+                    "confidence": 0.963,
+                    "source": "D(1,6.2097,6.0923,6.7386,6.0923,6.7386,6.2682,6.2097,6.2681)"
+                },
+                {
+                    "content": "human",
+                    "span": {
+                        "offset": 1247,
+                        "length": 5
+                    },
+                    "confidence": 0.995,
+                    "source": "D(1,6.7825,6.0923,7.2881,6.0922,7.2881,6.268,6.7825,6.2682)"
+                },
+                {
+                    "content": "input",
+                    "span": {
+                        "offset": 1253,
+                        "length": 5
+                    },
+                    "confidence": 0.956,
+                    "source": "D(1,4.4824,6.3277,4.8651,6.3273,4.8651,6.5099,4.4824,6.5103)"
+                },
+                {
+                    "content": "to",
+                    "span": {
+                        "offset": 1259,
+                        "length": 2
+                    },
+                    "confidence": 0.976,
+                    "source": "D(1,4.8954,6.3273,5.0412,6.3271,5.0412,6.5097,4.8954,6.5099)"
+                },
+                {
+                    "content": "create",
+                    "span": {
+                        "offset": 1262,
+                        "length": 6
+                    },
+                    "confidence": 0.974,
+                    "source": "D(1,5.0807,6.3271,5.5392,6.3265,5.5392,6.5091,5.0807,6.5097)"
+                },
+                {
+                    "content": "a",
+                    "span": {
+                        "offset": 1269,
+                        "length": 1
+                    },
+                    "confidence": 0.986,
+                    "source": "D(1,5.5787,6.3264,5.6546,6.3263,5.6546,6.5089,5.5787,6.5091)"
+                },
+                {
+                    "content": "highly",
+                    "span": {
+                        "offset": 1271,
+                        "length": 6
+                    },
+                    "confidence": 0.915,
+                    "source": "D(1,5.7032,6.3262,6.1192,6.3255,6.1192,6.5081,5.7032,6.5088)"
+                },
+                {
+                    "content": "accurate",
+                    "span": {
+                        "offset": 1278,
+                        "length": 8
+                    },
+                    "confidence": 0.989,
+                    "source": "D(1,6.1496,6.3255,6.7904,6.3241,6.7904,6.5067,6.1496,6.5081)"
+                },
+                {
+                    "content": "model",
+                    "span": {
+                        "offset": 1287,
+                        "length": 5
+                    },
+                    "confidence": 0.996,
+                    "source": "D(1,6.8298,6.324,7.3005,6.3229,7.3005,6.5055,6.8298,6.5066)"
+                },
+                {
+                    "content": "customized",
+                    "span": {
+                        "offset": 1293,
+                        "length": 10
+                    },
+                    "confidence": 0.997,
+                    "source": "D(1,4.4866,6.5695,5.3226,6.5648,5.3226,6.7367,4.4866,6.7413)"
+                },
+                {
+                    "content": "to",
+                    "span": {
+                        "offset": 1304,
+                        "length": 2
+                    },
+                    "confidence": 0.998,
+                    "source": "D(1,5.3654,6.5647,5.5052,6.5643,5.5052,6.7362,5.3654,6.7366)"
+                },
+                {
+                    "content": "your",
+                    "span": {
+                        "offset": 1307,
+                        "length": 4
+                    },
+                    "confidence": 0.997,
+                    "source": "D(1,5.5395,6.5642,5.8648,6.5638,5.8648,6.7357,5.5395,6.7361)"
+                },
+                {
+                    "content": "forms",
+                    "span": {
+                        "offset": 1312,
+                        "length": 5
+                    },
+                    "confidence": 0.995,
+                    "source": "D(1,5.8904,6.5639,6.3099,6.5643,6.3099,6.7362,5.8904,6.7357)"
+                },
+                {
+                    "content": ".",
+                    "span": {
+                        "offset": 1317,
+                        "length": 1
+                    },
+                    "confidence": 0.998,
+                    "source": "D(1,6.3184,6.5643,6.3584,6.5644,6.3584,6.7362,6.3184,6.7362)"
+                }
+            ],
+            "lines": [
+                {
+                    "content": "This is title",
+                    "source": "D(1,3.4656,1.0827,5.039,1.0851,5.0386,1.3931,3.4651,1.3907)",
+                    "span": {
+                        "offset": 0,
+                        "length": 17
+                    }
+                },
+                {
+                    "content": "1. Text",
+                    "source": "D(1,1.0065,2.6087,1.5894,2.6113,1.5886,2.8067,1.0056,2.8041)",
+                    "span": {
+                        "offset": 19,
+                        "length": 8
+                    }
+                },
+                {
+                    "content": "Latin refers to an ancient Italic language",
+                    "source": "D(1,0.9857,2.9533,3.9993,2.9595,3.9989,3.1422,0.9853,3.136)",
+                    "span": {
+                        "offset": 29,
+                        "length": 81
+                    }
+                },
+                {
+                    "content": "originating in the region of Latium in",
+                    "source": "D(1,0.9884,3.1922,4.003,3.1887,4.0035,3.378,0.9888,3.3846)",
+                    "span": {
+                        "offset": 111,
+                        "length": 38
+                    }
+                },
+                {
+                    "content": "ancient Rome.",
+                    "source": "D(1,0.987,3.4353,2.0347,3.4242,2.0365,3.6001,0.9889,3.6095)",
+                    "span": {
+                        "offset": 150,
+                        "length": 13
+                    }
+                },
+                {
+                    "content": "2. Page Objects",
+                    "source": "D(1,0.9873,3.8,2.3927,3.8,2.3927,4.0203,0.9873,4.0203)",
+                    "span": {
+                        "offset": 165,
+                        "length": 16
+                    }
+                },
+                {
+                    "content": "2.1 Table",
+                    "source": "D(1,0.9888,4.2172,1.8065,4.2172,1.8065,4.4174,0.9888,4.4174)",
+                    "span": {
+                        "offset": 183,
+                        "length": 9
+                    }
+                },
+                {
+                    "content": "Here's a sample table below, designed to",
+                    "source": "D(1,0.9888,4.5685,3.9263,4.5682,3.9263,4.7514,0.9888,4.7517)",
+                    "span": {
+                        "offset": 194,
+                        "length": 40
+                    }
+                },
+                {
+                    "content": "be simple for easy understand and quick",
+                    "source": "D(1,0.9872,4.8074,3.9034,4.8068,3.9035,4.992,0.9873,4.9926)",
+                    "span": {
+                        "offset": 235,
+                        "length": 39
+                    }
+                },
+                {
+                    "content": "reference.",
+                    "source": "D(1,0.9919,5.0542,1.7206,5.0553,1.7203,5.213,0.9917,5.212)",
+                    "span": {
+                        "offset": 275,
+                        "length": 10
+                    }
+                },
+                {
+                    "content": "Name",
+                    "source": "D(1,1.0646,5.4033,1.517,5.4033,1.517,5.5537,1.0646,5.5537)",
+                    "span": {
+                        "offset": 287,
+                        "length": 4
+                    }
+                },
+                {
+                    "content": "Corp",
+                    "source": "D(1,2.0669,5.4016,2.4311,5.4038,2.43,5.5747,2.0659,5.5728)",
+                    "span": {
+                        "offset": 293,
+                        "length": 4
+                    }
+                },
+                {
+                    "content": "Remark",
+                    "source": "D(1,3.063,5.4006,3.6378,5.4006,3.6378,5.5537,3.063,5.5537)",
+                    "span": {
+                        "offset": 299,
+                        "length": 6
+                    }
+                },
+                {
+                    "content": "Foo",
+                    "source": "D(1,1.0708,5.6182,1.3458,5.6182,1.3458,5.7699,1.0708,5.7699)",
+                    "span": {
+                        "offset": 307,
+                        "length": 3
+                    }
+                },
+                {
+                    "content": "Bar",
+                    "source": "D(1,1.0718,5.8276,1.324,5.8276,1.324,5.9801,1.0718,5.9801)",
+                    "span": {
+                        "offset": 312,
+                        "length": 3
+                    }
+                },
+                {
+                    "content": "Microsoft",
+                    "source": "D(1,2.0669,5.8276,2.7642,5.8276,2.7642,5.978,2.0669,5.978)",
+                    "span": {
+                        "offset": 317,
+                        "length": 9
+                    }
+                },
+                {
+                    "content": "Dummy",
+                    "source": "D(1,3.0651,5.8287,3.6451,5.8324,3.644,5.9997,3.064,5.996)",
+                    "span": {
+                        "offset": 328,
+                        "length": 5
+                    }
+                },
+                {
+                    "content": "Table 1: This is a dummy table",
+                    "source": "D(1,1.5139,6.0287,3.4785,6.0327,3.478,6.1997,1.5134,6.1943)",
+                    "span": {
+                        "offset": 335,
+                        "length": 30
+                    }
+                },
+                {
+                    "content": "2.2. Figure",
+                    "source": "D(1,0.9883,6.3755,1.9289,6.3755,1.9289,6.5962,0.9883,6.5962)",
+                    "span": {
+                        "offset": 367,
+                        "length": 11
+                    }
+                },
+                {
+                    "content": "Here is a figure with some text",
+                    "source": "D(1,0.9906,6.7293,3.146,6.7262,3.1463,6.9096,0.9909,6.9136)",
+                    "span": {
+                        "offset": 380,
+                        "length": 31
+                    }
+                },
+                {
+                    "content": "Values",
+                    "source": "D(1,1.0318,7.0787,1.2628,7.0784,1.2629,7.1662,1.0319,7.1665)",
+                    "span": {
+                        "offset": 413,
+                        "length": 6
+                    }
+                },
+                {
+                    "content": "500",
+                    "source": "D(1,1.0791,7.2456,1.214,7.2456,1.214,7.3318,1.0791,7.3318)",
+                    "span": {
+                        "offset": 421,
+                        "length": 3
+                    }
+                },
+                {
+                    "content": "450",
+                    "source": "D(1,2.6936,7.3154,2.8513,7.3154,2.8513,7.4121,2.6936,7.4121)",
+                    "span": {
+                        "offset": 426,
+                        "length": 3
+                    }
+                },
+                {
+                    "content": "400",
+                    "source": "D(1,1.0781,7.5625,1.2181,7.5625,1.2181,7.6484,1.0781,7.6484)",
+                    "span": {
+                        "offset": 431,
+                        "length": 3
+                    }
+                },
+                {
+                    "content": "400",
+                    "source": "D(1,2.2557,7.4766,2.4114,7.4766,2.4114,7.5732,2.2557,7.5732)",
+                    "span": {
+                        "offset": 436,
+                        "length": 3
+                    }
+                },
+                {
+                    "content": "350",
+                    "source": "D(1,3.1335,7.6323,3.2954,7.6323,3.2954,7.729,3.1335,7.729)",
+                    "span": {
+                        "offset": 441,
+                        "length": 3
+                    }
+                },
+                {
+                    "content": "300",
+                    "source": "D(1,1.8127,7.7918,1.9673,7.7918,1.9673,7.8905,1.8127,7.8905)",
+                    "span": {
+                        "offset": 446,
+                        "length": 3
+                    }
+                },
+                {
+                    "content": "300",
+                    "source": "D(1,1.0781,7.8794,1.215,7.8794,1.215,7.9653,1.0781,7.9653)",
+                    "span": {
+                        "offset": 451,
+                        "length": 3
+                    }
+                },
+                {
+                    "content": "250",
+                    "source": "D(1,3.5776,7.9546,3.7354,7.9546,3.7354,8.0513,3.5776,8.0513)",
+                    "span": {
+                        "offset": 456,
+                        "length": 3
+                    }
+                },
+                {
+                    "content": "200",
+                    "source": "D(1,1.0781,8.2017,1.2202,8.2017,1.2202,8.2876,1.0781,8.2876)",
+                    "span": {
+                        "offset": 461,
+                        "length": 3
+                    }
+                },
+                {
+                    "content": "200",
+                    "source": "D(1,1.3655,8.1157,1.5263,8.1157,1.5263,8.2124,1.3655,8.2124)",
+                    "span": {
+                        "offset": 466,
+                        "length": 3
+                    }
+                },
+                {
+                    "content": "100",
+                    "source": "D(1,1.0822,8.5186,1.2181,8.5186,1.2181,8.6045,1.0822,8.6045)",
+                    "span": {
+                        "offset": 471,
+                        "length": 3
+                    }
+                },
+                {
+                    "content": "0",
+                    "source": "D(1,1.2078,8.8408,1.2586,8.8408,1.2586,8.916,1.2078,8.916)",
+                    "span": {
+                        "offset": 476,
+                        "length": 1
+                    }
+                },
+                {
+                    "content": "Jan",
+                    "source": "D(1,1.379,8.9053,1.5118,8.9053,1.5118,8.9805,1.379,8.9805)",
+                    "span": {
+                        "offset": 479,
+                        "length": 3
+                    }
+                },
+                {
+                    "content": "Feb",
+                    "source": "D(1,1.822,8.893,1.9567,8.8943,1.9558,8.9836,1.8211,8.9822)",
+                    "span": {
+                        "offset": 484,
+                        "length": 3
+                    }
+                },
+                {
+                    "content": "Mar",
+                    "source": "D(1,2.2599,8.8999,2.401,8.8999,2.401,8.9849,2.2599,8.9849)",
+                    "span": {
+                        "offset": 489,
+                        "length": 3
+                    }
+                },
+                {
+                    "content": "Apr",
+                    "source": "D(1,2.7081,8.9053,2.8389,8.9053,2.8389,8.9912,2.7081,8.9912)",
+                    "span": {
+                        "offset": 494,
+                        "length": 3
+                    }
+                },
+                {
+                    "content": "May",
+                    "source": "D(1,3.1377,8.8984,3.2871,8.906,3.2871,8.9924,3.1377,8.9848)",
+                    "span": {
+                        "offset": 499,
+                        "length": 3
+                    }
+                },
+                {
+                    "content": "Jun",
+                    "source": "D(1,3.5859,8.8999,3.7229,8.8999,3.7229,8.9835,3.5859,8.9835)",
+                    "span": {
+                        "offset": 504,
+                        "length": 3
+                    }
+                },
+                {
+                    "content": "Months",
+                    "source": "D(1,3.9014,8.8945,4.1504,8.8945,4.1504,8.9805,3.9014,8.9805)",
+                    "span": {
+                        "offset": 509,
+                        "length": 6
+                    }
+                },
+                {
+                    "content": "3. Others",
+                    "source": "D(1,0.9873,9.2222,1.8272,9.2222,1.8272,9.4155,0.9873,9.4155)",
+                    "span": {
+                        "offset": 517,
+                        "length": 10
+                    }
+                },
+                {
+                    "content": "AI Document Intelligence is an AI service",
+                    "source": "D(1,0.9801,9.5722,3.9034,9.5647,3.9039,9.7478,0.9805,9.7553)",
+                    "span": {
+                        "offset": 529,
+                        "length": 41
+                    }
+                },
+                {
+                    "content": "that applies advanced machine learning",
+                    "source": "D(1,0.9821,9.7972,3.8765,9.7972,3.8765,9.9912,0.9821,9.9912)",
+                    "span": {
+                        "offset": 571,
+                        "length": 38
+                    }
+                },
+                {
+                    "content": "to extract text, key-value pairs, tables,",
+                    "source": "D(1,4.4781,2.2063,7.1885,2.2035,7.1885,2.3826,4.4783,2.3854)",
+                    "span": {
+                        "offset": 611,
+                        "length": 45
+                    }
+                },
+                {
+                    "content": "and structures from documents",
+                    "source": "D(1,4.4862,2.4493,6.7693,2.4445,6.7696,2.6083,4.4866,2.613)",
+                    "span": {
+                        "offset": 657,
+                        "length": 29
+                    }
+                },
+                {
+                    "content": "automatically and accurately. Turn",
+                    "source": "D(1,4.4824,2.6839,6.9644,2.6795,6.9647,2.8575,4.4824,2.8619)",
+                    "span": {
+                        "offset": 687,
+                        "length": 34
+                    }
+                },
+                {
+                    "content": "documents into usable data and shift",
+                    "source": "D(1,4.4865,2.9145,7.1677,2.9128,7.1678,3.0824,4.4866,3.0835)",
+                    "span": {
+                        "offset": 722,
+                        "length": 36
+                    }
+                },
+                {
+                    "content": "your focus to acting on information rather",
+                    "source": "D(1,4.4735,3.1569,7.4583,3.1457,7.4589,3.3224,4.4741,3.3327)",
+                    "span": {
+                        "offset": 759,
+                        "length": 42
+                    }
+                },
+                {
+                    "content": "than compiling it. Start with prebuilt",
+                    "source": "D(1,4.4777,3.3862,7.064,3.3782,7.0645,3.5603,4.4783,3.5683)",
+                    "span": {
+                        "offset": 802,
+                        "length": 38
+                    }
+                },
+                {
+                    "content": "models or create custom models tailored",
+                    "source": "D(1,4.4824,3.6196,7.45,3.6196,7.45,3.7893,4.4824,3.7893)",
+                    "span": {
+                        "offset": 841,
+                        "length": 39
+                    }
+                },
+                {
+                    "content": "to your documents both on premises and",
+                    "source": "D(1,4.4779,3.8626,7.4375,3.8562,7.4375,4.038,4.4783,4.0444)",
+                    "span": {
+                        "offset": 881,
+                        "length": 38
+                    }
+                },
+                {
+                    "content": "in the cloud with the AI Document",
+                    "source": "D(1,4.4824,4.095,6.927,4.0933,6.9271,4.2612,4.4824,4.2627)",
+                    "span": {
+                        "offset": 920,
+                        "length": 33
+                    }
+                },
+                {
+                    "content": "Intelligence studio or SDK.",
+                    "source": "D(1,4.4857,4.3354,6.3833,4.326,6.3842,4.5041,4.4866,4.5135)",
+                    "span": {
+                        "offset": 954,
+                        "length": 31
+                    }
+                },
+                {
+                    "content": "The custom extraction capabilities in AI",
+                    "source": "D(1,4.4782,4.6729,7.2922,4.6715,7.2923,4.8444,4.4783,4.8458)",
+                    "span": {
+                        "offset": 987,
+                        "length": 40
+                    }
+                },
+                {
+                    "content": "Document Intelligence help you",
+                    "source": "D(1,4.4949,4.9091,6.7699,4.9177,6.7693,5.0915,4.4942,5.0829)",
+                    "span": {
+                        "offset": 1028,
+                        "length": 30
+                    }
+                },
+                {
+                    "content": "overcome this challenge by training on",
+                    "source": "D(1,4.4866,5.154,7.2509,5.1549,7.2507,5.3333,4.4865,5.3315)",
+                    "span": {
+                        "offset": 1059,
+                        "length": 38
+                    }
+                },
+                {
+                    "content": "your own data based on just five",
+                    "source": "D(1,4.4776,5.3863,6.7817,5.3777,6.7824,5.5594,4.4783,5.5637)",
+                    "span": {
+                        "offset": 1098,
+                        "length": 32
+                    }
+                },
+                {
+                    "content": "documents. Not only is the first output",
+                    "source": "D(1,4.4866,5.6177,7.2424,5.6177,7.2424,5.8012,4.4866,5.8012)",
+                    "span": {
+                        "offset": 1131,
+                        "length": 39
+                    }
+                },
+                {
+                    "content": "more reliable and tailored to your needs,",
+                    "source": "D(1,4.4866,5.8518,7.3836,5.8528,7.3835,6.035,4.4865,6.034)",
+                    "span": {
+                        "offset": 1171,
+                        "length": 41
+                    }
+                },
+                {
+                    "content": "but it also allows you to provide human",
+                    "source": "D(1,4.4824,6.0906,7.2881,6.0922,7.2881,6.269,4.4824,6.2673)",
+                    "span": {
+                        "offset": 1213,
+                        "length": 39
+                    }
+                },
+                {
+                    "content": "input to create a highly accurate model",
+                    "source": "D(1,4.4824,6.3277,7.3005,6.3229,7.3009,6.5061,4.4824,6.5103)",
+                    "span": {
+                        "offset": 1253,
+                        "length": 39
+                    }
+                },
+                {
+                    "content": "customized to your forms.",
+                    "source": "D(1,4.4861,6.5671,6.3584,6.562,6.3584,6.7362,4.4866,6.7413)",
+                    "span": {
+                        "offset": 1293,
+                        "length": 25
+                    }
+                }
+            ],
+            "formulas": [
+                {
+                    "kind": "display",
+                    "value": "\\mathrm { M S E } = \\frac { 1 } { n } \\sum _ { i = 1 } ^ { n } \\left( y _ { i } - \\widehat { y } _ { i } \\right) ^ { 2 }",
+                    "source": "D(1,4.7316,8.2874,6.7236,8.2942,6.7195,8.9186,4.7314,8.9014)",
+                    "span": {
+                        "offset": 1320,
+                        "length": 124
+                    },
+                    "confidence": 0.819
+                }
+            ]
+        }
+    ],
+    "paragraphs": [
+        {
+            "content": "This is title",
+            "source": "D(1,3.4656,1.0827,5.039,1.0851,5.0386,1.3931,3.4651,1.3907)",
+            "span": {
+                "offset": 0,
+                "length": 17
+            }
+        },
+        {
+            "content": "1. Text",
+            "source": "D(1,1.0065,2.6087,1.5894,2.6113,1.5886,2.8067,1.0056,2.8041)",
+            "span": {
+                "offset": 19,
+                "length": 8
+            }
+        },
+        {
+            "content": "Latin refers to an ancient Italic language originating in the region of Latium in ancient Rome.",
+            "source": "D(1,0.9843,2.9533,4.0016,2.9361,4.0053,3.5923,0.988,3.6095)",
+            "span": {
+                "offset": 29,
+                "length": 134
+            }
+        },
+        {
+            "content": "2. Page Objects",
+            "source": "D(1,0.9873,3.8,2.3927,3.8,2.3927,4.0203,0.9873,4.0203)",
+            "span": {
+                "offset": 165,
+                "length": 16
+            }
+        },
+        {
+            "content": "2.1 Table",
+            "source": "D(1,0.9888,4.2172,1.8065,4.2172,1.8065,4.4174,0.9888,4.4174)",
+            "span": {
+                "offset": 183,
+                "length": 9
+            }
+        },
+        {
+            "content": "Here's a sample table below, designed to be simple for easy understand and quick reference.",
+            "source": "D(1,0.9872,4.5685,3.9263,4.5682,3.9263,5.2128,0.9873,5.2131)",
+            "span": {
+                "offset": 194,
+                "length": 91
+            }
+        },
+        {
+            "content": "Name",
+            "source": "D(1,1.0646,5.4033,1.517,5.4033,1.517,5.5537,1.0646,5.5537)",
+            "span": {
+                "offset": 287,
+                "length": 4
+            }
+        },
+        {
+            "content": "Corp",
+            "source": "D(1,2.0669,5.4016,2.4311,5.4038,2.43,5.575,2.0659,5.5728)",
+            "span": {
+                "offset": 293,
+                "length": 4
+            }
+        },
+        {
+            "content": "Remark",
+            "source": "D(1,3.063,5.4006,3.6378,5.4006,3.6378,5.5537,3.063,5.5537)",
+            "span": {
+                "offset": 299,
+                "length": 6
+            }
+        },
+        {
+            "content": "Foo",
+            "source": "D(1,1.0708,5.6182,1.3458,5.6182,1.3458,5.7699,1.0708,5.7699)",
+            "span": {
+                "offset": 307,
+                "length": 3
+            }
+        },
+        {
+            "content": "Bar",
+            "source": "D(1,1.0718,5.8276,1.324,5.8276,1.324,5.9801,1.0718,5.9801)",
+            "span": {
+                "offset": 312,
+                "length": 3
+            }
+        },
+        {
+            "content": "Microsoft",
+            "source": "D(1,2.0669,5.8276,2.7642,5.8276,2.7642,5.978,2.0669,5.978)",
+            "span": {
+                "offset": 317,
+                "length": 9
+            }
+        },
+        {
+            "content": "Dummy",
+            "source": "D(1,3.0651,5.8287,3.6451,5.8324,3.644,5.9997,3.064,5.996)",
+            "span": {
+                "offset": 328,
+                "length": 5
+            }
+        },
+        {
+            "content": "Table 1: This is a dummy table",
+            "source": "D(1,1.5139,6.0273,3.4785,6.0327,3.478,6.1997,1.5134,6.1943)",
+            "span": {
+                "offset": 335,
+                "length": 30
+            }
+        },
+        {
+            "content": "2.2. Figure",
+            "source": "D(1,0.9883,6.3755,1.9289,6.3755,1.9289,6.5962,0.9883,6.5962)",
+            "span": {
+                "offset": 367,
+                "length": 11
+            }
+        },
+        {
+            "content": "Here is a figure with some text",
+            "source": "D(1,0.9906,6.7293,3.146,6.7253,3.1463,6.9096,0.9909,6.9136)",
+            "span": {
+                "offset": 380,
+                "length": 31
+            }
+        },
+        {
+            "content": "Values",
+            "source": "D(1,1.0318,7.0787,1.2628,7.0784,1.2629,7.1662,1.0319,7.1665)",
+            "span": {
+                "offset": 413,
+                "length": 6
+            }
+        },
+        {
+            "content": "500",
+            "source": "D(1,1.0791,7.2456,1.214,7.2456,1.214,7.3318,1.0791,7.3318)",
+            "span": {
+                "offset": 421,
+                "length": 3
+            }
+        },
+        {
+            "content": "450",
+            "source": "D(1,2.6936,7.3154,2.8513,7.3154,2.8513,7.4121,2.6936,7.4121)",
+            "span": {
+                "offset": 426,
+                "length": 3
+            }
+        },
+        {
+            "content": "400",
+            "source": "D(1,1.0781,7.5625,1.2181,7.5625,1.2181,7.6484,1.0781,7.6484)",
+            "span": {
+                "offset": 431,
+                "length": 3
+            }
+        },
+        {
+            "content": "400",
+            "source": "D(1,2.2557,7.4766,2.4114,7.4766,2.4114,7.5732,2.2557,7.5732)",
+            "span": {
+                "offset": 436,
+                "length": 3
+            }
+        },
+        {
+            "content": "350",
+            "source": "D(1,3.1335,7.6323,3.2954,7.6323,3.2954,7.729,3.1335,7.729)",
+            "span": {
+                "offset": 441,
+                "length": 3
+            }
+        },
+        {
+            "content": "300",
+            "source": "D(1,1.8127,7.7918,1.9673,7.7918,1.9673,7.8905,1.8127,7.8905)",
+            "span": {
+                "offset": 446,
+                "length": 3
+            }
+        },
+        {
+            "content": "300",
+            "source": "D(1,1.0781,7.8794,1.215,7.8794,1.215,7.9653,1.0781,7.9653)",
+            "span": {
+                "offset": 451,
+                "length": 3
+            }
+        },
+        {
+            "content": "250",
+            "source": "D(1,3.5776,7.9546,3.7354,7.9546,3.7354,8.0513,3.5776,8.0513)",
+            "span": {
+                "offset": 456,
+                "length": 3
+            }
+        },
+        {
+            "content": "200",
+            "source": "D(1,1.0781,8.2017,1.2202,8.2017,1.2202,8.2876,1.0781,8.2876)",
+            "span": {
+                "offset": 461,
+                "length": 3
+            }
+        },
+        {
+            "content": "200",
+            "source": "D(1,1.3655,8.1157,1.5263,8.1157,1.5263,8.2124,1.3655,8.2124)",
+            "span": {
+                "offset": 466,
+                "length": 3
+            }
+        },
+        {
+            "content": "100",
+            "source": "D(1,1.0822,8.5186,1.2181,8.5186,1.2181,8.6045,1.0822,8.6045)",
+            "span": {
+                "offset": 471,
+                "length": 3
+            }
+        },
+        {
+            "content": "0",
+            "source": "D(1,1.2078,8.8408,1.2586,8.8408,1.2586,8.916,1.2078,8.916)",
+            "span": {
+                "offset": 476,
+                "length": 1
+            }
+        },
+        {
+            "content": "Jan",
+            "source": "D(1,1.379,8.9053,1.5118,8.9053,1.5118,8.9805,1.379,8.9805)",
+            "span": {
+                "offset": 479,
+                "length": 3
+            }
+        },
+        {
+            "content": "Feb",
+            "source": "D(1,1.822,8.893,1.9567,8.8943,1.9558,8.9836,1.8211,8.9822)",
+            "span": {
+                "offset": 484,
+                "length": 3
+            }
+        },
+        {
+            "content": "Mar",
+            "source": "D(1,2.2599,8.8999,2.401,8.8999,2.401,8.9849,2.2599,8.9849)",
+            "span": {
+                "offset": 489,
+                "length": 3
+            }
+        },
+        {
+            "content": "Apr",
+            "source": "D(1,2.7081,8.9053,2.8389,8.9053,2.8389,8.9912,2.7081,8.9912)",
+            "span": {
+                "offset": 494,
+                "length": 3
+            }
+        },
+        {
+            "content": "May",
+            "source": "D(1,3.1377,8.8984,3.2915,8.9062,3.2871,8.9924,3.1334,8.9846)",
+            "span": {
+                "offset": 499,
+                "length": 3
+            }
+        },
+        {
+            "content": "Jun",
+            "source": "D(1,3.5859,8.8999,3.7229,8.8999,3.7229,8.9835,3.5859,8.9835)",
+            "span": {
+                "offset": 504,
+                "length": 3
+            }
+        },
+        {
+            "content": "Months",
+            "source": "D(1,3.9014,8.8945,4.1504,8.8945,4.1504,8.9805,3.9014,8.9805)",
+            "span": {
+                "offset": 509,
+                "length": 6
+            }
+        },
+        {
+            "content": "3. Others",
+            "source": "D(1,0.9873,9.2222,1.8272,9.2222,1.8272,9.4155,0.9873,9.4155)",
+            "span": {
+                "offset": 517,
+                "length": 10
+            }
+        },
+        {
+            "content": "AI Document Intelligence is an AI service that applies advanced machine learning",
+            "source": "D(1,0.9801,9.5722,3.9034,9.5647,3.9045,9.9912,0.9812,9.9987)",
+            "span": {
+                "offset": 529,
+                "length": 80
+            }
+        },
+        {
+            "content": "to extract text, key-value pairs, tables, and structures from documents automatically and accurately. Turn documents into usable data and shift your focus to acting on information rather than compiling it. Start with prebuilt models or create custom models tailored to your documents both on premises and in the cloud with the AI Document Intelligence studio or SDK.",
+            "source": "D(1,4.4699,2.2064,7.4547,2.1952,7.4633,4.5023,4.4786,4.5136)",
+            "span": {
+                "offset": 611,
+                "length": 374
+            }
+        },
+        {
+            "content": "The custom extraction capabilities in AI Document Intelligence help you overcome this challenge by training on your own data based on just five documents. Not only is the first output more reliable and tailored to your needs, but it also allows you to provide human input to create a highly accurate model customized to your forms.",
+            "source": "D(1,4.4757,4.6729,7.3804,4.665,7.386,6.7334,4.4813,6.7414)",
+            "span": {
+                "offset": 987,
+                "length": 331
+            }
+        },
+        {
+            "content": ":formula:",
+            "source": "D(1,4.7316,8.281,6.7236,8.2942,6.7195,8.9186,4.7275,8.9053)",
+            "span": {
+                "offset": 1320,
+                "length": 124
+            }
+        }
+    ],
+    "hyperlinks": [
+        {
+            "content": "Latin",
+            "url": "https://en.wikipedia.org/wiki/Latin",
+            "span": {
+                "offset": 29,
+                "length": 44
+            },
+            "source": "D(1,0.9857189,2.9530556,1.3423392,2.9548647,1.3414376,3.1325912,0.98481745,3.1307821)"
+        },
+        {
+            "content": "",
+            "url": "https://azure.microsoft.com/en-us/products/ai-services/ai-document-intelligence",
+            "source": "D(1,4.46875,7.6306396,6.162597,7.6306396,6.162597,7.8663054,4.46875,7.8663054)"
+        }
+    ],
+    "annotations": [
+        {
+            "id": "highlight-1",
+            "kind": "highlight",
+            "spans": [
+                {
+                    "offset": 0,
+                    "length": 17
+                }
+            ],
+            "source": "D(1,3.4655802,1.0836415,5.038815,1.0848665,5.038575,1.3930603,3.4653401,1.3918353)",
+            "comments": [
+                {
+                    "message": "This is a mock document used for showing Content Understanding features.",
+                    "author": "Sample SDK Author",
+                    "createdAt": "2025-11-12T08:39:54",
+                    "lastModifiedAt": "2025-11-17T00:45:25"
+                }
+            ],
+            "author": "Sample SDK Author",
+            "createdAt": "2025-11-12T08:39:54",
+            "lastModifiedAt": "2025-11-17T00:45:25"
+        },
+        {
+            "id": "highlight-2",
+            "kind": "highlight",
+            "spans": [
+                {
+                    "offset": 967,
+                    "length": 10
+                }
+            ],
+            "source": "D(1,5.3673654,4.3311343,5.8165917,4.3284025,5.8176475,4.502013,5.368421,4.504745)",
+            "comments": [
+                {
+                    "message": "Document Intelligence Studio is an online tool to visually explore, understand, train, and integrate features into your applications. You can easily extract key data from documents or create your own custom models with a no-code approach.",
+                    "author": "Sample SDK Author",
+                    "createdAt": "2025-11-12T08:40:25",
+                    "lastModifiedAt": "2025-11-17T00:44:48"
+                }
+            ],
+            "author": "Sample SDK Author",
+            "createdAt": "2025-11-12T08:40:25",
+            "lastModifiedAt": "2025-11-17T00:44:48"
+        },
+        {
+            "id": "highlight-3",
+            "kind": "highlight",
+            "spans": [
+                {
+                    "offset": 622,
+                    "length": 34
+                }
+            ],
+            "source": "D(1,5.195941,2.2043228,7.188477,2.2035406,7.188547,2.383209,5.196011,2.3839912)",
+            "comments": [
+                {
+                    "message": "Document Intelligence also supports figures, so this should be added to the feature list.",
+                    "author": "Sample SDK Author",
+                    "createdAt": "2025-11-12T08:49:00",
+                    "lastModifiedAt": "2025-11-17T00:42:29"
+                },
+                {
+                    "message": "Yes, I agree, and figure understanding is also on the way.",
+                    "author": "Another SDK Sample Authoer",
+                    "createdAt": "2025-11-12T08:50:47",
+                    "lastModifiedAt": "2025-11-17T00:44:06"
+                }
+            ],
+            "author": "Sample SDK Author",
+            "createdAt": "2025-11-12T08:49:00",
+            "lastModifiedAt": "2025-11-17T00:42:29"
+        }
+    ],
+    "analyzerId": "my_custom_analyzer_1773144144",
+    "mimeType": "application/pdf"
+}
